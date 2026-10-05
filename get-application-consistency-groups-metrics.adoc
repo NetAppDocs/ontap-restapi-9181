@@ -7,6 +7,7 @@ summary: 'Retrieve the historical performance and capacity metrics for a consist
 ---
 
 = Retrieve the historical performance and capacity metrics for a consistency group
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/metrics`#
 

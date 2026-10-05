@@ -7,6 +7,7 @@ summary: 'Retrieve SnapMirror async and sync policy types'
 ---
 
 = Retrieve SnapMirror async and sync policy types
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/snapmirror/policies`#
 

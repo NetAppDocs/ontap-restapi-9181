@@ -7,6 +7,7 @@ summary: 'Retrieve NVMe subsystem hosts'
 ---
 
 = Retrieve NVMe subsystem hosts
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/subsystems/{subsystem.uuid}/hosts`#
 

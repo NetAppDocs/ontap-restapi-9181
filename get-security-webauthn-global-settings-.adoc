@@ -7,6 +7,7 @@ summary: 'Retrieve a WebAuthn global setting entry'
 ---
 
 = Retrieve a WebAuthn global setting entry
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/webauthn/global-settings/{owner.uuid}`#
 

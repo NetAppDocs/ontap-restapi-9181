@@ -2,7 +2,7 @@
 settings:
   name: REST API reference
   downlevel: true
-  lipi_enabled: false
+  lipi_enabled: true
   github_edit: false
   internal:
     pdf_enabled: true

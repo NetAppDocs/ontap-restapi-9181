@@ -7,6 +7,7 @@ summary: 'Manage volume efficiency policies'
 ---
 
 = Manage volume efficiency policies
+:imagesdir: ./media/
 
 
 

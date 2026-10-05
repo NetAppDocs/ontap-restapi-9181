@@ -7,6 +7,7 @@ summary: 'Manage cluster nodes'
 ---
 
 = Manage cluster nodes
+:imagesdir: ./media/
 
 
 

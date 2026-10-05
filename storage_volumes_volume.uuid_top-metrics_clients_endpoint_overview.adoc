@@ -7,6 +7,7 @@ summary: 'View I/O activity for clients'
 ---
 
 = View I/O activity for clients
+:imagesdir: ./media/
 
 
 

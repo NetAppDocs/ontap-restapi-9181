@@ -7,6 +7,7 @@ summary: 'Add a privilege tuple to an existing role'
 ---
 
 = Add a privilege tuple to an existing role
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}/privileges`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve UNIX user cache settings for an SVM'
 ---
 
 = Retrieve UNIX user cache settings for an SVM
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/unix-user/settings/{svm.uuid}`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve all BGP peer group details for VIP'
 ---
 
 = Retrieve all BGP peer group details for VIP
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/bgp/peer-groups`#
 

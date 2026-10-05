@@ -7,6 +7,7 @@ summary: 'Retrieve UNIX group cache settings'
 ---
 
 = Retrieve UNIX group cache settings
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/unix-group/settings`#
 

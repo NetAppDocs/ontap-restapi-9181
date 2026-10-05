@@ -7,6 +7,7 @@ summary: 'Create an FC protocol service'
 ---
 
 = Create an FC protocol service
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/san/fcp/services`#
 

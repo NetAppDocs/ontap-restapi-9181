@@ -7,6 +7,7 @@ summary: 'Retrieve a UNIX group cache setting for an SVM'
 ---
 
 = Retrieve a UNIX group cache setting for an SVM
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/unix-group/settings/{svm.uuid}`#
 

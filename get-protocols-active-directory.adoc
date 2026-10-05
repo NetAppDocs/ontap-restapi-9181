@@ -7,6 +7,7 @@ summary: 'Retrieve Active Directory accounts for all SVMs'
 ---
 
 = Retrieve Active Directory accounts for all SVMs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/active-directory`#
 

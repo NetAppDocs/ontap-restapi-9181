@@ -7,6 +7,7 @@ summary: 'Update node information'
 ---
 
 = Update node information
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/cluster/nodes/{uuid}`#
 

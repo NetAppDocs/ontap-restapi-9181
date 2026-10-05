@@ -7,6 +7,7 @@ summary: 'Retrieve a Google Cloud KMS configurations for all clusters and SVMs'
 ---
 
 = Retrieve a Google Cloud KMS configurations for all clusters and SVMs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/gcp-kms`#
 

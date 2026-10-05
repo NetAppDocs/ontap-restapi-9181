@@ -7,6 +7,7 @@ summary: 'Retrieve directories'
 ---
 
 = Retrieve directories
+:imagesdir: ./media/
 
 
 

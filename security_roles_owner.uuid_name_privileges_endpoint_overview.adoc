@@ -7,6 +7,7 @@ summary: 'Manage role privilege details'
 ---
 
 = Manage role privilege details
+:imagesdir: ./media/
 
 
 

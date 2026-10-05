@@ -7,6 +7,7 @@ summary: 'Retrieve NVMe services'
 ---
 
 = Retrieve NVMe services
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/services`#
 

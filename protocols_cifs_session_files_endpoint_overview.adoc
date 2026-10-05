@@ -7,6 +7,7 @@ summary: 'View CIFS active file sessions'
 ---
 
 = View CIFS active file sessions
+:imagesdir: ./media/
 
 
 

@@ -7,6 +7,7 @@ summary: 'Retrieve the CIFS domain-related information of all SVMs'
 ---
 
 = Retrieve the CIFS domain-related information of all SVMs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/domains`#
 

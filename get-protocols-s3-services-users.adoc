@@ -7,6 +7,7 @@ summary: 'Retrieve the SVM configuration for an S3 user'
 ---
 
 = Retrieve the SVM configuration for an S3 user
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/users`#
 

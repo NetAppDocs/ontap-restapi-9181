@@ -7,6 +7,7 @@ summary: 'Update the S3 bucket lifecycle rule configuration'
 ---
 
 = Update the S3 bucket lifecycle rule configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/buckets/{s3_bucket.uuid}/rules/{name}`#
 

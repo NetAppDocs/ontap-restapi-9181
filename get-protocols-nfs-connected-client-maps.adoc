@@ -7,6 +7,7 @@ summary: 'Retrieve NFS client information'
 ---
 
 = Retrieve NFS client information
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/connected-client-maps`#
 

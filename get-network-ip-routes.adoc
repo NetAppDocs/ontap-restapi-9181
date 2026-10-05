@@ -7,6 +7,7 @@ summary: 'Retrieve IP routes'
 ---
 
 = Retrieve IP routes
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/routes`#
 

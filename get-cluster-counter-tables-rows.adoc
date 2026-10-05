@@ -7,6 +7,7 @@ summary: 'Retrieve counter rows'
 ---
 
 = Retrieve counter rows
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/counter/tables/{counter_table.name}/rows`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve environment sensors'
 ---
 
 = Retrieve environment sensors
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/sensors`#
 

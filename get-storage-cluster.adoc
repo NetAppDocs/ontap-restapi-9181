@@ -7,6 +7,7 @@ summary: 'Report cluster-wide storage details across different tiers'
 ---
 
 = Report cluster-wide storage details across different tiers
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/cluster`#
 

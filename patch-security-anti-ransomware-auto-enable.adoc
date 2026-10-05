@@ -7,6 +7,7 @@ summary: 'Modify the anti-ransomware auto enablement setting'
 ---
 
 = Modify the anti-ransomware auto enablement setting
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/anti-ransomware/auto-enable`#
 

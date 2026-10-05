@@ -7,6 +7,7 @@ summary: 'Retrieve the volume transfer status for a volume'
 ---
 
 = Retrieve the volume transfer status for a volume
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/migrations/{svm_migration.uuid}/volumes/{volume.uuid}`#
 

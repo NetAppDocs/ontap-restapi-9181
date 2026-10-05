@@ -7,6 +7,7 @@ summary: 'Create a new cluster-scoped or SVM-scoped role'
 ---
 
 = Create a new cluster-scoped or SVM-scoped role
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/roles`#
 

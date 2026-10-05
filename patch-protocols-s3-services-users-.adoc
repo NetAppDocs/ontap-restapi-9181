@@ -7,6 +7,7 @@ summary: 'Update an S3 user configuration'
 ---
 
 = Update an S3 user configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/users/{name}`#
 

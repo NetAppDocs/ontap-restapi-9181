@@ -7,6 +7,7 @@ summary: 'Retrieve all ongoing file move operations in the cluster'
 ---
 
 = Retrieve all ongoing file move operations in the cluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/moves`#
 

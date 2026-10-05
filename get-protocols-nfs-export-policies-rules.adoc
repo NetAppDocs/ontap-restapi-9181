@@ -7,6 +7,7 @@ summary: 'Retrieve export policy rules'
 ---
 
 = Retrieve export policy rules
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/export-policies/{policy.id}/rules`#
 

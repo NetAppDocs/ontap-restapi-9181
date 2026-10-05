@@ -7,6 +7,7 @@ summary: 'Retrieve a SnapMirror relationship'
 ---
 
 = Retrieve a SnapMirror relationship
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/snapmirror/relationships/{uuid}`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve ONTAP Mediators configured in the cluster'
 ---
 
 = Retrieve ONTAP Mediators configured in the cluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/mediators`#
 

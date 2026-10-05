@@ -7,6 +7,7 @@ summary: 'Retrieve UNIX symbolic link mappings for CIFS clients'
 ---
 
 = Retrieve UNIX symbolic link mappings for CIFS clients
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/unix-symlink-mapping`#
 

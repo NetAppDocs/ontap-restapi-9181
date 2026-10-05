@@ -7,6 +7,7 @@ summary: 'Retrieve NFS protocol historical performance metrics'
 ---
 
 = Retrieve NFS protocol historical performance metrics
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/services/{svm.uuid}/metrics`#
 

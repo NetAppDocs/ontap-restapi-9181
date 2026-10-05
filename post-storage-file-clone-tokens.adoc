@@ -7,6 +7,7 @@ summary: 'Create a new token to reserve the split load'
 ---
 
 = Create a new token to reserve the split load
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/file/clone/tokens`#
 
@@ -124,6 +125,24 @@ a|Token UUID.
 |===
 
 
+.Example request
+[%collapsible%closed]
+====
+[source,json,subs=+macros]
+{
+  "expiry_time": {
+    "left": "string",
+    "limit": "string"
+  },
+  "node": {
+    "name": "string",
+    "uuid": "string"
+  },
+  "reserve_size": 0,
+  "uuid": "string"
+}
+====
+
 == Response
 
 ```
@@ -156,7 +175,18 @@ a|
 {
   "num_records": 1,
   "records": [
-    {}
+    {
+      "expiry_time": {
+        "left": "string",
+        "limit": "string"
+      },
+      "node": {
+        "name": "string",
+        "uuid": "string"
+      },
+      "reserve_size": 0,
+      "uuid": "string"
+    }
   ]
 }
 ====

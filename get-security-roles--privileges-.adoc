@@ -7,6 +7,7 @@ summary: 'Retrieve the access level for a REST API path or command/command direc
 ---
 
 = Retrieve the access level for a REST API path or command/command directory path for a role
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}/privileges/{path}`#
 

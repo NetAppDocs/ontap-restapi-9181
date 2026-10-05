@@ -7,6 +7,7 @@ summary: 'Retrieve SVMs configured with audit log volumes'
 ---
 
 = Retrieve SVMs configured with audit log volumes
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snaplock/audit-logs`#
 

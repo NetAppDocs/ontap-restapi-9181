@@ -7,6 +7,7 @@ summary: 'Update disk ownership, change authentication keys, or sanitize disks'
 ---
 
 = Update disk ownership, change authentication keys, or sanitize disks
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/disks`#
 
