@@ -7,6 +7,7 @@ summary: 'Retrieve lock details'
 ---
 
 = Retrieve lock details
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/locks`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve a collection of bridges'
 ---
 
 = Retrieve a collection of bridges
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/bridges`#
 

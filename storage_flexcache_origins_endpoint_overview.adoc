@@ -7,6 +7,7 @@ summary: 'Manage storage FlexCache origin volumes'
 ---
 
 = Manage storage FlexCache origin volumes
+:imagesdir: ./media/
 
 
 

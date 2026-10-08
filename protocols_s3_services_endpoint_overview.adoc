@@ -7,6 +7,7 @@ summary: 'Manage protocols S3 services'
 ---
 
 = Manage protocols S3 services
+:imagesdir: ./media/
 
 
 

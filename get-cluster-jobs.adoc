@@ -7,6 +7,7 @@ summary: 'Retrieve recent asynchronous jobs'
 ---
 
 = Retrieve recent asynchronous jobs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/jobs`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve the cluster network security configuration'
 ---
 
 = Retrieve the cluster network security configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/cluster-network`#
 

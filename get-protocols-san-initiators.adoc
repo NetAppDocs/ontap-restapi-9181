@@ -7,6 +7,7 @@ summary: 'Retrieve initiators'
 ---
 
 = Retrieve initiators
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/initiators`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve cluster network security certificate configuration'
 ---
 
 = Retrieve cluster network security certificate configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/cluster-network/certificates`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve historical performance metrics for an FC interface'
 ---
 
 = Retrieve historical performance metrics for an FC interface
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/interfaces/{fc_interface.uuid}/metrics`#
 

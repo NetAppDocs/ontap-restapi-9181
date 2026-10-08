@@ -7,6 +7,7 @@ summary: 'Retrieve FC port information'
 ---
 
 = Retrieve FC port information
+:imagesdir: ./media/
 
 
 

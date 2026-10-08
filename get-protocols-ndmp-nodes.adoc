@@ -7,6 +7,7 @@ summary: 'Retrieve the NDMP node configurations for all nodes'
 ---
 
 = Retrieve the NDMP node configurations for all nodes
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/ndmp/nodes`#
 

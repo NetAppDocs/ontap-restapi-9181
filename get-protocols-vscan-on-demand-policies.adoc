@@ -7,6 +7,7 @@ summary: 'Retrieve a Vscan On-Demand policy'
 ---
 
 = Retrieve a Vscan On-Demand policy
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/on-demand-policies`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve tape devices'
 ---
 
 = Retrieve tape devices
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/tape-devices`#
 

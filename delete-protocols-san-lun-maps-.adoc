@@ -7,6 +7,7 @@ summary: 'Delete a LUN map'
 ---
 
 = Delete a LUN map
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/san/lun-maps/{lun.uuid}/{igroup.uuid}`#
 

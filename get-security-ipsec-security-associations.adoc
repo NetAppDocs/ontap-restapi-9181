@@ -7,6 +7,7 @@ summary: 'Retrieve IPsec and IKE security associations'
 ---
 
 = Retrieve IPsec and IKE security associations
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/ipsec/security-associations`#
 

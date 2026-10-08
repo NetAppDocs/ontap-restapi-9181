@@ -7,6 +7,7 @@ summary: 'Retrieve IPsec CA certificates configured for the cluster and all SVMs
 ---
 
 = Retrieve IPsec CA certificates configured for the cluster and all SVMs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/ipsec/ca-certificates`#
 

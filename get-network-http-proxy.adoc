@@ -7,6 +7,7 @@ summary: 'Retrieve HTTP proxy configurations for all SVMs and cluster IPspaces'
 ---
 
 = Retrieve HTTP proxy configurations for all SVMs and cluster IPspaces
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/http-proxy`#
 

@@ -7,6 +7,7 @@ summary: 'Manage cluster network security certificates'
 ---
 
 = Manage cluster network security certificates
+:imagesdir: ./media/
 
 
 

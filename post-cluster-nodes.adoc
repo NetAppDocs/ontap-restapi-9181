@@ -7,6 +7,7 @@ summary: 'Add a node or nodes to a cluster'
 ---
 
 = Add a node or nodes to a cluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster/nodes`#
 

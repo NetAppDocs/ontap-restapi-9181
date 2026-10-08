@@ -7,6 +7,7 @@ summary: 'View and create OAuth 2.0 configurations'
 ---
 
 = View and create OAuth 2.0 configurations
+:imagesdir: ./media/
 
 
 

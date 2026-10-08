@@ -7,6 +7,7 @@ summary: 'Retrieve iSCSI sessions'
 ---
 
 = Retrieve iSCSI sessions
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/iscsi/sessions`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve the SAML default metadata configuration'
 ---
 
 = Retrieve the SAML default metadata configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/cluster/saml-sp/default-metadata`#
 

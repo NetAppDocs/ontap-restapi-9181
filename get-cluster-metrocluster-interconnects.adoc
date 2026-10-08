@@ -7,6 +7,7 @@ summary: 'Retrieve interconnect adapter information for nodes in MetroCluster'
 ---
 
 = Retrieve interconnect adapter information for nodes in MetroCluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrocluster/interconnects`#
 

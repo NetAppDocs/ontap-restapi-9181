@@ -7,6 +7,7 @@ summary: 'Retrieve a netgroup cache setting for an SVM'
 ---
 
 = Retrieve a netgroup cache setting for an SVM
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/netgroup/settings/{svm.uuid}`#
 

@@ -7,6 +7,7 @@ summary: 'Create and provision an SVM'
 ---
 
 = Create and provision an SVM
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/svm/svms`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve CIFS servers'
 ---
 
 = Retrieve CIFS servers
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/services`#
 

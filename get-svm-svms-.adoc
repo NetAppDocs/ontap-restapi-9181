@@ -7,6 +7,7 @@ summary: 'Retrieve SVM properties'
 ---
 
 = Retrieve SVM properties
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/svms/{uuid}`#
 

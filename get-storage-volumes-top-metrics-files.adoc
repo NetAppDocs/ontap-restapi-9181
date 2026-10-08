@@ -7,6 +7,7 @@ summary: 'Retrieve files with the most I/O activity'
 ---
 
 = Retrieve files with the most I/O activity
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/volumes/{volume.uuid}/top-metrics/files`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve service policies'
 ---
 
 = Retrieve service policies
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/service-policies`#
 

@@ -7,6 +7,7 @@ summary: 'Retrieve a Vscan On-Access policy'
 ---
 
 = Retrieve a Vscan On-Access policy
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/on-access-policies`#
 

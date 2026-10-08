@@ -7,6 +7,7 @@ summary: 'Getting started with the ONTAP REST API'
 ---
 
 = Getting started with the ONTAP REST API
+:imagesdir: ./media/
 
 
 

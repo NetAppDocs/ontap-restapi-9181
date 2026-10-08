@@ -7,6 +7,7 @@ summary: 'Retrieve information for a token'
 ---
 
 = Retrieve information for a token
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/clone/tokens`#
 
@@ -206,7 +207,23 @@ a|
   },
   "num_records": 1,
   "records": [
-    {}
+    {
+      "_links": {
+        "self": {
+          "href": "/api/resourcelink"
+        }
+      },
+      "expiry_time": {
+        "left": "string",
+        "limit": "string"
+      },
+      "node": {
+        "name": "string",
+        "uuid": "string"
+      },
+      "reserve_size": 0,
+      "uuid": "string"
+    }
   ]
 }
 ====

@@ -7,6 +7,7 @@ summary: 'Retrieve a QoS workload'
 ---
 
 = Retrieve a QoS workload
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/qos/workloads/{uuid}`#
 

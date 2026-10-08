@@ -7,6 +7,7 @@ summary: 'List files with the most I/O activity'
 ---
 
 = List files with the most I/O activity
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/svms/{svm.uuid}/top-metrics/files`#
 

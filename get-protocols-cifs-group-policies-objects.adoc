@@ -7,6 +7,7 @@ summary: 'Retrieve applied group policy objects for an SVM'
 ---
 
 = Retrieve applied group policy objects for an SVM
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}/objects`#
 

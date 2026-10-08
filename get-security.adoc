@@ -7,6 +7,7 @@ summary: 'Retrieve information about security configured on the cluster'
 ---
 
 = Retrieve information about security configured on the cluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security`#
 

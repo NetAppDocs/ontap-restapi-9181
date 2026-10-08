@@ -7,6 +7,7 @@ summary: 'Retrieve a collection of plexes for an aggregate'
 ---
 
 = Retrieve a collection of plexes for an aggregate
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/aggregates/{aggregate.uuid}/plexes`#
 

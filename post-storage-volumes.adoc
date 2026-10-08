@@ -7,6 +7,7 @@ summary: 'Create a volume on an SVM and storage aggregates'
 ---
 
 = Create a volume on an SVM and storage aggregates
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/volumes`#
 

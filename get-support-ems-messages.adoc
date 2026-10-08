@@ -7,6 +7,7 @@ summary: 'Retrieve event catalog definitions'
 ---
 
 = Retrieve event catalog definitions
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/messages`#
 

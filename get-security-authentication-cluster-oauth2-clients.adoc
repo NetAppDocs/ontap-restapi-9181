@@ -7,6 +7,7 @@ summary: 'Retrieve all OAuth 2.0 configurations'
 ---
 
 = Retrieve all OAuth 2.0 configurations
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/cluster/oauth2/clients`#
 

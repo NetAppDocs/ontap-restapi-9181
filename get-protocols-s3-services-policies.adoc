@@ -7,6 +7,7 @@ summary: 'Retrieve the S3 policies in an SVM configuration'
 ---
 
 = Retrieve the S3 policies in an SVM configuration
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/policies`#
 

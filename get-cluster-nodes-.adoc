@@ -7,6 +7,7 @@ summary: 'Retrieve node information'
 ---
 
 = Retrieve node information
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/nodes/{uuid}`#
 

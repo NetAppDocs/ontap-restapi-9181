@@ -7,6 +7,7 @@ summary: 'Manage DNS configurations'
 ---
 
 = Manage DNS configurations
+:imagesdir: ./media/
 
 
 

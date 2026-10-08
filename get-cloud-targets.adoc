@@ -7,6 +7,7 @@ summary: 'Retrieve cloud targets in the cluster'
 ---
 
 = Retrieve cloud targets in the cluster
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cloud/targets`#
 

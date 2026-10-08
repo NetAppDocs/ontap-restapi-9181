@@ -7,6 +7,7 @@ summary: 'Retrieve privileges for all local, or Active Directory users or groups
 ---
 
 = Retrieve privileges for all local, or Active Directory users or groups and SVMs
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/users-and-groups/privileges`#
 
