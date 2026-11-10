@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-cloud-targets-.html'
+keywords: 'cloud target,uuid update,object-store modify,job link,storage aggregate'
 summary: 'Update a cloud target'
 ---
 
 = Update a cloud target
 :imagesdir: ./media/
 
+[.lead]
+Updates a specific cloud target by modifying its configuration with the provided details. This operation initiates a job and gives you a link to track its progress.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/cloud/targets/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates the cloud target specified by the UUID with the fields in the body. This request starts a job and returns a link to that job.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'getting_started_with_the_ontap_rest_api.html'
+keywords: 'ontap rest,ontap automation,hal linking,json encoding,query parameters'
 summary: 'Getting started with the ONTAP REST API'
 ---
 
 = Getting started with the ONTAP REST API
 :imagesdir: ./media/
 
-
+[.lead]
+Explore the ONTAP REST API to understand the types of API calls available for managing and automating storage in your environment. This section provides details on using each endpoint, offering insights into their functionality and use cases. Dive into the documentation to leverage the expansive capabilities of ONTAP's RESTful API.
 
 ONTAP adds support for an expansive RESTful API. The documentation below provides information about the types of API calls available with ONTAP, as well as details about using each API endpoint. You can learn more about the ONTAP REST API in the ONTAP automation doc site:  https://docs.netapp.com/us-en/ontap-automation/index.html.
 
@@ -209,7 +211,7 @@ Most APIs support performing operations in parallel, and record-based operations
 [.api-collapsible-fourth-title]
 Asynchronous job and results
 
-Unless the records array is directly documented in the API as synchronous, every record-based operation is performed as a job and follows the usual rules for <<Synchronous_and_asynchronous_operations,asynchronous jobs>>. In addition to the usual `/api/cluster/jobs` record of the job, these operations return a job results href link. The link refers back to the API on which the operation was performed and can be followed after the job is complete. Job results include the current state of the records and fields operated on by the job. If a POST operation was successful on a record, that record is included in job results. If a DELETE operation was successful, that record is not included in the job results because it is no longer part of the collection. The same concept applies to failures. If the POST of a record fails, the record is not included in the job results because it is not part of the collection. The results also include any errors or rollback errors encountered by the job. The job results link is also returned as the Location header from a record-based POST job, supporting the same pattern for determining any generated identifiers as a single record POST. Note that the job results link does not support all of the usual GET features. Requesting specific fields and querying a subset of the records is supported, but _max_records_ and _return_timeout_ as well as other such query parameters for controlling the iteration of the collection is are not supported.
+Unless the records array is directly documented in the API as synchronous, every record-based operation is performed as a job and follows the usual rules for link:getting_started_with_the_ontap_rest_api.html#Synchronous_and_asynchronous_operations[asynchronous jobs]. In addition to the usual `/api/cluster/jobs` record of the job, these operations return a job results href link. The link refers back to the API on which the operation was performed and can be followed after the job is complete. Job results include the current state of the records and fields operated on by the job. If a POST operation was successful on a record, that record is included in job results. If a DELETE operation was successful, that record is not included in the job results because it is no longer part of the collection. The same concept applies to failures. If the POST of a record fails, the record is not included in the job results because it is not part of the collection. The results also include any errors or rollback errors encountered by the job. The job results link is also returned as the Location header from a record-based POST job, supporting the same pattern for determining any generated identifiers as a single record POST. Note that the job results link does not support all of the usual GET features. Requesting specific fields and querying a subset of the records is supported, but _max_records_ and _return_timeout_ as well as other such query parameters for controlling the iteration of the collection is are not supported.
 
 [.api-collapsible-fourth-title]
 Unique identifiers go in the body

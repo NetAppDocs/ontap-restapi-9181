@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_fpolicy_svm.uuid_events_endpoint_overview.html'
+keywords: 'fpolicy configuration,file monitoring,cifs protocol,nfs protocol,file operation filters,volume monitoring'
 summary: 'Manage FPolicy event configuration'
 ---
 
 = Manage FPolicy event configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy events to control which file accesses are monitored within a storage virtual machine (SVM). Specify protocols, file operations, and filters to tailor notification generation and monitor failed operations due to permission issues.
 
 == Overview
 

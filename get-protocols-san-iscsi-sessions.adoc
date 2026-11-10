@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-iscsi-sessions.html'
+keywords: 'iscsi sessions,retrieve iscsi,iscsi connection,iscsi session parameter,initiator address,target portal group'
 summary: 'Retrieve iSCSI sessions'
 ---
 
 = Retrieve iSCSI sessions
 :imagesdir: ./media/
 
+[.lead]
+Retrieves details about active iSCSI sessions to monitor and manage connections within your storage network. This information helps you ensure that your iSCSI configurations are functioning correctly and identify any issues that may arise.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/iscsi/sessions`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves iSCSI sessions.
 

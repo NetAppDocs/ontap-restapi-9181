@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-.html'
+keywords: 'consistency group,retrieves consistency,single group,expensive properties,fields parameter,uuid identifier'
 summary: 'Retrieve a consistency group'
 ---
 
 = Retrieve a consistency group
 :imagesdir: ./media/
 
+[.lead]
+Accesses a consistency group to view its configuration and details. This is useful for understanding the specific groupings of storage resources within your system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves a single consistency group.
 
@@ -4281,7 +4291,7 @@ This array contains only the direct children of the initiator group. If the memb
 
 Zero or more nested initiator groups can be supplied when the initiator group is created. The initiator group will act as if it contains the aggregation of all initiators in any nested initiator groups.
 
-After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups_-san-igroup-nested-create_anddelete-protocols-san-igroups-igroups-.html<</SAN/igroup_nested_create,POST /protocols/san/igroups/{igroup.uuid}/igroups>> and [DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
+After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups.html[POST /protocols/san/igroups/{igroup.uuid}/igroups]  and link:delete-protocols-san-igroups-igroups-.html[DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
 
 
 |initiators

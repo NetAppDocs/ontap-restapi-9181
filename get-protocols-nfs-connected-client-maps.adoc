@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-connected-client-maps.html'
+keywords: 'nfs clients,connected clients,client information,server ip,svm name,node uuid'
 summary: 'Retrieve NFS client information'
 ---
 
 = Retrieve NFS client information
 :imagesdir: ./media/
 
+[.lead]
+Obtains information about NFS clients, which includes details such as client status and configuration. This helps you monitor and manage client access to NFS resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/connected-client-maps`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves NFS clients information.
 

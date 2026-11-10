@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-metrics.html'
+keywords: 'cluster metrics,performance metrics,latency filter,iops filter,throughput filter,metrics duration'
 summary: 'Retrieve historical performance metrics for the cluster'
 ---
 
 = Retrieve historical performance metrics for the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves historical performance metrics for the cluster to analyze and monitor its performance trends over time.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrics`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves historical performance metrics for the cluster.
-
+ONTAP 9.6
 
 == Parameters
 

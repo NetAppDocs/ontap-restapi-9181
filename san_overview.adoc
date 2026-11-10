@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'san_overview.html'
+keywords: 'storage area network,fibre channel,wwpn alias,iscsi credential,initiator group,lun mapping'
 summary: 'ONTAP REST API SAN endpoints'
 ---
 
 = ONTAP REST API SAN endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Explore the SAN endpoints to configure, provision, and manage storage area network-related objects. Use these endpoints to streamline SAN operations and ensure optimal performance for your storage environment.
 
 == Overview
 

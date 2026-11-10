@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_software_history_endpoint_overview.html'
+keywords: 'cluster software,installation history,node level,software package,version upgrade'
 summary: 'Manage cluster software history'
 ---
 
 = Manage cluster software history
 :imagesdir: ./media/
 
-
+[.lead]
+Access the cluster software history endpoints to retrieve details about software installation requests. Use these endpoints to obtain comprehensive information on installation history, including node-specific records and package details.
 
 == Overview
 

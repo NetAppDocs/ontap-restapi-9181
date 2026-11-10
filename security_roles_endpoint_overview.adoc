@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_roles_endpoint_overview.html'
+keywords: 'role based access control,security roles,privileges,access level,rback'
 summary: 'Manage security roles'
 ---
 
 = Manage security roles
 :imagesdir: ./media/
 
-
+[.lead]
+Manage security roles to define user account privileges and rights within your system. Role-Based Access Control (RBAC) ensures each user account has an associated role that specifies the access level for API methods or command operations. Use these endpoints to create, retrieve, or manage roles to maintain secure and controlled access to system resources.
 
 == Overview
 

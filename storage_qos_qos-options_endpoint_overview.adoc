@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_qos_qos-options_endpoint_overview.html'
+keywords: 'quality of service, qos configuration, qos option, storage qos, qos management'
 summary: 'Manage QoS options'
 ---
 
 = Manage QoS options
 :imagesdir: ./media/
 
-
+[.lead]
+The Quality of Service (QoS) endpoints manage configuration details that dictate QoS behavior. Use these endpoints to retrieve and modify QoS settings to optimize performance and resource allocation across your ONTAP environment.
 
 == Quality of Service Options
 

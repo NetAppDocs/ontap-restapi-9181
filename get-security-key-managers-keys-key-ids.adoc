@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-managers-keys-key-ids.html'
+keywords: 'key manager,security configuration,node key,uuid key,ontap commands,key ids'
 summary: 'Retrieve key manager configurations'
 ---
 
 = Retrieve key manager configurations
 :imagesdir: ./media/
 
+[.lead]
+Accesses key manager configurations to review and manage the security settings associated with your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-managers/{security_key_manager.uuid}/keys/{node.uuid}/key-ids`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves key manager configurations.
 

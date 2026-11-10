@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-svm-svms.html'
+keywords: 'svm list,svm properties,protocol configurations,export policies,network services'
 summary: 'Retrieve SVMs and SVM properties'
 ---
 
 = Retrieve SVMs and SVM properties
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a list of Storage Virtual Machines (SVMs) and their properties, including protocol configurations like CIFS, NFS, and S3, as well as export policies and network services. Use this endpoint to access SVM configurations and details when managing storage resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/svms`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a list of SVMs and individual SVM properties. This includes protocol configurations such as CIFS, NFS and S3, export policies, name service configurations, and network services.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_cluster-network_certificates_endpoint_overview.html'
+keywords: 'cluster network,network security,security certificates,certificate configuration,modify certificate,remove certificate'
 summary: 'Manage cluster network security certificates'
 ---
 
 = Manage cluster network security certificates
 :imagesdir: ./media/
 
-
+[.lead]
+Use the cluster network security certificate endpoints to view, modify, and manage certificate configurations, ensuring secure communication within your network. These operations help maintain robust security across different nodes in your cluster.
 
 == Overview
 

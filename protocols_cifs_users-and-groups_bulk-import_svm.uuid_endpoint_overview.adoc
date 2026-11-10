@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_users-and-groups_bulk-import_svm.uuid_endpoint_overview.html'
+keywords: 'bulk import,cifs user groups,local users,group membership,import status,svm uuid'
 summary: 'Perform bulk import for CIFS user groups'
 ---
 
 = Perform bulk import for CIFS user groups
 :imagesdir: ./media/
 
-
+[.lead]
+Use the bulk import endpoints to manage CIFS local users, groups, and group memberships from a specified URI. You can replace existing data, track the status of the last import, and upload import status to the specified URI.
 
 == Overview
 

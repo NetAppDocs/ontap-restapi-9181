@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_active-directory_svm.uuid_endpoint_overview.html'
+keywords: 'active directory,svm management,account details,organizational unit,security encryptions'
 summary: 'Manage Active Directory accounts for an SVM'
 ---
 
 = Manage Active Directory accounts for an SVM
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Active Directory account details for a specific SVM, including displaying, modifying, and deleting accounts. Use these endpoints to efficiently handle Active Directory integrations within your ONTAP environment.
 
 == Overview
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-groups.html'
+keywords: 'security groups,retrieve groups,group entries,filter groups,group type,group id'
 summary: 'Retrieve all group entries'
 ---
 
 = Retrieve all group entries
 :imagesdir: ./media/
 
+[.lead]
+Obtains a list of all group entries, which helps you manage and review the security login groups configured in the system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/groups`#
 
-*Introduced In:* 9.16
+== Introduced in
+
+ONTAP 9.16
+
+== Usage notes
 
 Retrieves all group entries.
 

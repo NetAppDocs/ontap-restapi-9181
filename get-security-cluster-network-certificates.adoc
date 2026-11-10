@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-cluster-network-certificates.html'
+keywords: 'cluster network,certificate configuration,network security,certificate retrieval,cluster certificate,security configuration'
 summary: 'Retrieve cluster network security certificate configuration'
 ---
 
 = Retrieve cluster network security certificate configuration
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the certificate configuration for cluster network security, helping ensure secure communications within your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/cluster-network/certificates`#
 
-*Introduced In:* 9.18
+== Introduced in
+
+ONTAP 9.18
+
+== Usage notes
 
 Retrieves the certificate configuration used for cluster network security.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_locks_endpoint_overview.html'
+keywords: 'file locks,cifs protocol,lock synchronization,concurrent access,lock management'
 summary: 'View lock details'
 ---
 
 = View lock details
 :imagesdir: ./media/
 
-
+[.lead]
+View lock details through these endpoints to manage concurrent file access across multiple clients. You can retrieve, view, or break locks using various query fields to optimize your query processing.
 
 == Overview
 

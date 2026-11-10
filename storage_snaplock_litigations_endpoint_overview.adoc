@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_snaplock_litigations_endpoint_overview.html'
+keywords: 'snaplock storage,compliance-mode worm,legal-hold files,indefinite retention,litigation id'
 summary: 'Manage SnapLock storage litigations'
 ---
 
 = Manage SnapLock storage litigations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage SnapLock storage litigations with endpoints designed to retain Compliance-mode WORM files during legal proceedings. Use these operations to ensure files remain unaltered with indefinite retention, accessible only to users with the vsadmin-snaplock security role.
 
 Use this API to retain Compliance-mode WORM files for the duration of a litigation. A file under a legal-hold behaves as a WORM file with an indefinite retention period. Litigation ID is a combination of volume UUID and litigation name in the format `<volume UUID>:<litigation name>`. Only a user with the security login role vsadmin-snaplock can perform the operation.
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-snapshot-policies-schedules.html'
+keywords: 'snapshot policy,snapshot schedule,snapshot retention,snapmirror label,retention period,schedule uuid'
 summary: 'Retrieve snapshot policy schedules'
 ---
 
 = Retrieve snapshot policy schedules
 :imagesdir: ./media/
 
+[.lead]
+Retrieves snapshot policy schedules to view the schedule configurations associated with snapshot policies.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snapshot-policies/{snapshot_policy.uuid}/schedules`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves a collection of snapshot policy schedules.
 

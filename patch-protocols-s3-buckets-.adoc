@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-s3-buckets-.html'
+keywords: 's3 bucket update,svm configuration,access policy,versioning state,cors rules,snapshot restore'
 summary: 'Update the S3 bucket configuration for an SVM'
 ---
 
 = Update the S3 bucket configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Updates the S3 bucket configuration for an SVM, adjusting settings such as access policies, QoS policies, and versioning states to suit your storage management needs. This allows you to tailor the bucket's configuration for specific operational requirements or compliance standards.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/s3/buckets/{svm.uuid}/{uuid}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Updates the S3 bucket configuration of an SVM.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_nodes_endpoint_overview.html'
+keywords: 'cluster nodes,manage nodes,node configuration,node state,network interface,node deletion'
 summary: 'Manage cluster nodes'
 ---
 
 = Manage cluster nodes
 :imagesdir: ./media/
 
-
+[.lead]
+Manage cluster nodes by adding new nodes, updating configurations, and retrieving current node details to maintain a robust and scalable cluster environment. Use these endpoints to ensure all nodes are properly configured and operational, enhancing cluster performance and reliability.
 
 = Overview
 

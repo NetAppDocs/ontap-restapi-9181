@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'name-services_unix-groups_svm.uuid_unix_group.name_users_endpoint_overview.html'
+keywords: 'unix group management,svm unix group,manage unix users,unix group retrieval,add unix user'
 summary: 'Manage UNIX group users'
 ---
 
 = Manage UNIX group users
 :imagesdir: ./media/
 
-
+[.lead]
+Manage UNIX group users by retrieving, adding, or deleting UNIX users within a specified Storage Virtual Machine (SVM) UNIX group. Use these endpoints to maintain and update user memberships efficiently in your UNIX environments.
 
 == Overview
 

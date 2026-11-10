@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_authentication_cluster_oauth2_clients_name_endpoint_overview.html'
+keywords: 'oauth configuration,delete oauth,oauth cluster,oauth client,oauth introspection,oauth roles'
 summary: 'View and delete an OAuth 2.0 configuration'
 ---
 
 = View and delete an OAuth 2.0 configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and delete OAuth 2.0 configurations within your cluster using this API. Access existing configurations or remove them as needed to manage authentication settings effectively.
 
 == Overview
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-file-clone-split-loads.html'
+keywords: 'clone split,split load,node load,file clone,clone split data,split load limit'
 summary: 'Retrieve the clone split load of a node'
 ---
 
 = Retrieve the clone split load of a node
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about the clone split load on a node to understand how much data is currently undergoing the split process and the remaining capacity for processing additional data. This helps you monitor and manage the split load effectively within your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/clone/split-loads`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the clone split load of a node.
 

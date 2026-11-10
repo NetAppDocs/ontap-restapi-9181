@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-security-login-totps-.html'
+keywords: 'delete totp,totp profile,totp user,security login,account deletion'
 summary: 'Delete the TOTP profile for a user account'
 ---
 
 = Delete the TOTP profile for a user account
 :imagesdir: ./media/
 
+[.lead]
+Deletes the TOTP profile for a user account when you need to remove two-factor authentication settings.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/security/login/totps/{owner.uuid}/{account.name}`#
 
-*Introduced In:* 9.13
+== Introduced in
 
-Deletes the TOTP profile for a user account.
+ONTAP 9.13
 
 == Related ONTAP commands
 

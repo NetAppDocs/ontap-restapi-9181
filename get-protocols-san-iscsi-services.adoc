@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-iscsi-services.html'
+keywords: 'iscsi services,iscsi retrieval,vserver iscsi,san protocols,iscsi statistics,iscsi metrics'
 summary: 'Retrieve iSCSI services'
 ---
 
 = Retrieve iSCSI services
 :imagesdir: ./media/
 
+[.lead]
+Retrieves iSCSI services to access detailed information about current iSCSI configurations within your network environment. This is typically used to monitor and manage iSCSI resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/iscsi/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves iSCSI services.
+ONTAP 9.6
 
 == Expensive properties
 

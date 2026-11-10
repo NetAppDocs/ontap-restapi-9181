@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-subnets.html'
+keywords: 'network subnets,subnet details,ip ranges,netmask filter,gateway filter,broadcast domain'
 summary: 'Retrieve details for all subnets'
 ---
 
 = Retrieve details for all subnets
 :imagesdir: ./media/
 
+[.lead]
+Retrieves detailed information about all subnets, helping you manage and configure network resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/subnets`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves details for all subnets.
 

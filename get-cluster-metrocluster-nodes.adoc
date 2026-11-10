@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-metrocluster-nodes.html'
+keywords: 'metrocluster nodes,configuration retrieval,node filtering,disaster recovery,ha partner'
 summary: 'Retrieve MetroCluster nodes and configurations'
 ---
 
 = Retrieve MetroCluster nodes and configurations
 :imagesdir: ./media/
 
+[.lead]
+Retrieves MetroCluster nodes and their configurations to understand the current setup and details of your MetroCluster environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrocluster/nodes`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Retrieves MetroCluster nodes and their configurations.
+ONTAP 9.8
 
 == Related ONTAP Commands
 

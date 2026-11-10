@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'svm_svms_svm.uuid_web_endpoint_overview.html'
+keywords: 'web services security,web services configuration,data svm security,certificate management,ocsp configuration'
 summary: 'Manage web services security configuration'
 ---
 
 = Manage web services security configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Update and retrieve web services security configurations for data SVMs using these endpoints. Access these endpoints to manage certificate settings and enable security features like client and OCSP.
 
 You can use this API to update and retrieve the web services security configuration for each data SVM.
 

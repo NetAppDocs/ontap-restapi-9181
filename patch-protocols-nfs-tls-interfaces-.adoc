@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-nfs-tls-interfaces-.html'
+keywords: 'nfs tls,interface update,subject alternate name,network interface,skip san validation'
 summary: 'Update the properties of an NFS over TLS interface'
 ---
 
 = Update the properties of an NFS over TLS interface
 :imagesdir: ./media/
 
+[.lead]
+Updates the properties of an NFS over TLS interface to modify its configuration settings for securing NFS traffic.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/nfs/tls/interfaces/{interface.uuid}`#
 
-*Introduced In:* 9.15
+== Introduced in
 
-Updates the properties of an NFS over TLS interface.
+ONTAP 9.15
 
 == Optional query parameter
 

@@ -3,20 +3,22 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_ems_role-configs_access_control_role.name_endpoint_overview.html'
+keywords: 'ems configuration,access control,role-based management,event filter,limit access'
 summary: 'Manage EMS role-based configurations'
 ---
 
 = Manage EMS role-based configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage EMS role-based settings to control access and event filtering for specific roles within your ONTAP environment. Use these endpoints to retrieve, update, or remove configurations associated with access control roles.
 
 == Overview
 
 Manages the EMS role-based configuration of a specific access control role.
 
 ##
-See the documentation for <<docs-support-support_ems_role-configs,/support/ems/role-configs>> for details on the various properties.
+See the documentation for link:getting_started_with_the_ontap_rest_api.html#docs-support-support_ems_role-configs[/support/ems/role-configs] for details on the various properties.
 
 == Examples
 

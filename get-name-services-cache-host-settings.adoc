@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-cache-host-settings.html'
+keywords: 'host cache,cache settings,negative ttl,negative cache,ttl enabled,dns ttl'
 summary: 'Retrieve host cache settings'
 ---
 
 = Retrieve host cache settings
 :imagesdir: ./media/
 
+[.lead]
+Accesses host cache settings to review current configurations for name service cache on hosts.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/host/settings`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves host cache settings.
 

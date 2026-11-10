@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_ems_filters_endpoint_overview.html'
+keywords: 'event filters,filter rules,filter criteria,severity pattern,snmp trap'
 summary: 'Create or retrieve event filters'
 ---
 
 = Create or retrieve event filters
 :imagesdir: ./media/
 
-
+[.lead]
+Manage event filters to control how events are identified and handled within the system. These filters use rules to evaluate events, allowing the system to send specific events to designated destinations based on matching criteria.
 
 == Overview
 

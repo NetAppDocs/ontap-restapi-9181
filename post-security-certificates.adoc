@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-certificates.html'
+keywords: 'certificate creation,certificate install,azure key vault,ontap cluster,security certificate'
 summary: 'Create or install security certificates'
 ---
 
 = Create or install security certificates
 :imagesdir: ./media/
 
+[.lead]
+Creates or installs security certificates on an ONTAP cluster, or downloads a certificate from Azure Key Vault for installation. Use this endpoint to manage your security certificates, whether generating new ones or integrating existing ones from external sources like Azure.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/certificates`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates or installs a certificate or downloads a certificate from Azure Key Vault (AKV) and installs it on the ONTAP cluster.
 

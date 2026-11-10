@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_multi-admin-verify_requests_endpoint_overview.html'
+keywords: 'multi-admin verification,approval requests,execute command,designated approvers,volume delete,ontap operation'
 summary: 'Manage multi-admin-verify approval requests'
 ---
 
 = Manage multi-admin-verify approval requests
 :imagesdir: ./media/
 
-
+[.lead]
+Access multi-admin verification requests to review and approve commands protected by a multi-admin rule. Use these endpoints when a command requires approval from designated approvers before execution.
 
 == Overview
 

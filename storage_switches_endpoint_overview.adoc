@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_switches_endpoint_overview.html'
+keywords: 'storage switches,cluster switches,brocade switches,switch information,retrieve switches'
 summary: 'Manage storage switches'
 ---
 
 = Manage storage switches
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve information about storage switches within the cluster using the storage switch GET API. These endpoints help you monitor and manage the switches connected to your ONTAP environment.
 
 == Retrieving storage switch information
 

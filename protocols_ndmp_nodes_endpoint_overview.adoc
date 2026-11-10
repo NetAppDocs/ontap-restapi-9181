@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_ndmp_nodes_endpoint_overview.html'
+keywords: 'ndmp node,manage node,plaintext password,plaintext sso,node configuration'
 summary: 'Manage NDMP node configurations'
 ---
 
 = Manage NDMP node configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Use NDMP node configuration endpoints to manage authentication settings and enable or disable features. These endpoints are typically used to configure authentication types like "plaintext" for nodes within the NDMP scope.
 
 You can use this API to manage node configurations. The authentication types "plaintext" and "plaintext_sso" are used to show that the password uses clear text. Also, they contain no differences for NDMP node scope.
 

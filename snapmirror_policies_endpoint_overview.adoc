@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'snapmirror_policies_endpoint_overview.html'
+keywords: 'snapmirror policies,async policy,sync policy,flexvol endpoint,consistency group,automated failover'
 summary: 'Manage SnapMirror policies'
 ---
 
 = Manage SnapMirror policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage SnapMirror policies to control the behavior and configuration of SnapMirror relationships. Use these endpoints to apply policies of type "async" or "sync" to your SnapMirror relationships, ensuring that data copies between endpoints meet your specific requirements for write success, failover access, and snapshot handling.
 
 == Managing SnapMirror policies
 

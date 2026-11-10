@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_volumes_volume.uuid_files_path_endpoint_overview.html'
+keywords: 'file management,read write,metadata retrieval,directory listing,symlink creation,delete directory'
 summary: 'Manage files and directories'
 ---
 
 = Manage files and directories
 :imagesdir: ./media/
 
-
+[.lead]
+Access and manipulate files and directories with endpoints that provide capabilities for reading, writing, listing, and modifying file properties. Utilize these endpoints to perform operations such as creating or deleting directories, managing symlinks, and applying QoS policies. Ensure accurate handling of paths by using specific encoding for directory and file paths.
 
 == Overview
 

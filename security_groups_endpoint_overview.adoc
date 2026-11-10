@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_groups_endpoint_overview.html'
+keywords: 'group configuration,security groups,create group,retrieve groups,entra type,azure group'
 summary: 'Manage group configurations'
 ---
 
 = Manage group configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage group configurations in ONTAP to organize and streamline security settings. Use these endpoints for creating and retrieving group configurations, ensuring efficient administration of security groups within your environment.
 
 === Overview
 

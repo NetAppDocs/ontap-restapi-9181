@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services.html'
+keywords: 's3 server,s3 configuration,bucket creation,user creation,svm setup,https certificate'
 summary: 'Create S3 server, users, and buckets configurations'
 ---
 
 = Create S3 server, users, and buckets configurations
 :imagesdir: ./media/
 
+[.lead]
+Uses this endpoint to create S3 server, user, and bucket configurations for a Storage Virtual Machine (SVM). This is useful for setting up object storage services within your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates an S3 server, users, and buckets configurations.
 

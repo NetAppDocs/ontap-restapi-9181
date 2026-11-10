@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_qtrees_endpoint_overview.html'
+keywords: 'qtree management,qtree qos,flexvol,qtree performance,extended monitoring,storage management'
 summary: 'Manage storage qtrees'
 ---
 
 = Manage storage qtrees
 :imagesdir: ./media/
 
-
+[.lead]
+Manage storage qtrees to organize and control file system structures within your ONTAP environment. Use these endpoints to create, retrieve, modify, delete, and monitor qtrees, including setting QoS policies and enabling extended performance monitoring.
 
 == Overview
 

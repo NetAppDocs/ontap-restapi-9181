@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_file-security_permissions_svm.uuid_path_endpoint_overview.html'
+keywords: 'file security, audit policies, ntfs permissions, access control, slag acl'
 summary: 'Manage file security permissions and audit policies'
 ---
 
 = Manage file security permissions and audit policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage NTFS file security permissions and audit policies directly on files or directories without a client. These endpoints consolidate multiple configuration steps into a single process to create security descriptors (SDs) with access control entries (ACEs) for discretionary and system access control lists (DACLs and SACLs). Starting with ONTAP 9.10.1, you can also configure Storage-Level Access Guard (SLAG) ACLs using these endpoints.
 
 == Overview
 

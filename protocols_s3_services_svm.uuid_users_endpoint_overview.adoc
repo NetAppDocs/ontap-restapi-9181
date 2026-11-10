@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_s3_services_svm.uuid_users_endpoint_overview.html'
+keywords: 's3 service users,s3 user account,access key,secret key,bucket owner'
 summary: 'Manage S3 service users'
 ---
 
 = Manage S3 service users
 :imagesdir: ./media/
 
-
+[.lead]
+Manage S3 service users to create and configure user accounts on the S3 server, associating them with buckets and generating access and secret keys. Use these endpoints to retrieve, create, update, and delete S3 user configurations, including managing key expiration settings and user associations with Active Directory domains.
 
 == Overview
 

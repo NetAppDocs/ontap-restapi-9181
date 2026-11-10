@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'network_ethernet_switch_ports_endpoint_overview.html'
+keywords: 'ethernet switch,network ports,port configuration,port status,mac address'
 summary: 'Retrieve network Ethernet switch ports'
 ---
 
 = Retrieve network Ethernet switch ports
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve detailed information about ethernet switch ports within your cluster or storage networks using this API. Access port status and configuration data through GET operations for effective network management and troubleshooting.
 
 == Overview
 

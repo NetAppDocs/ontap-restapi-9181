@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'application_consistency-groups_consistency_group.uuid_metrics_endpoint_overview.html'
+keywords: 'consistency group,performance metrics,capacity metrics,historical data,space metrics'
 summary: 'Retrieve consistency group metrics'
 ---
 
 = Retrieve consistency group metrics
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve historical performance and capacity metrics for consistency groups using these endpoints. Analyze metrics such as latency, IOPS, and throughput over specified time intervals to assess system performance and space utilization.
 
 == Overview
 

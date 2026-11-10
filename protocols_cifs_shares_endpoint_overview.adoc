@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_shares_endpoint_overview.html'
+keywords: 'cifs shares, share permissions, svm cifs, share creation, cifs access, cifs management'
 summary: 'Manage CIFS shares'
 ---
 
 = Manage CIFS shares
 :imagesdir: ./media/
 
-
+[.lead]
+Configure CIFS shares to control access to data on the CIFS server over SMB. These shares act as named access points in a volume tied to the CIFS server on the SVM. Utilize these endpoints to create, retrieve, update, or delete CIFS shares and manage their permissions.
 
 == Overview
 

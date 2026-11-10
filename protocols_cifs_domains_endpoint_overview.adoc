@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_domains_endpoint_overview.html'
+keywords: 'cifs domain,smb domain,svm configurations,domain trust,kerberos server'
 summary: 'View CIFS domain-related information'
 ---
 
 = View CIFS domain-related information
 :imagesdir: ./media/
 
-
+[.lead]
+Access CIFS domain-related information for all Storage Virtual Machines (SVMs). Utilize these endpoints to retrieve configuration details, trust relationships, and server discovery data across your network domains.
 
 == Overview
 

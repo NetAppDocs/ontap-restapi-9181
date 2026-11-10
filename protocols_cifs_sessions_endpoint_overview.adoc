@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_sessions_endpoint_overview.html'
+keywords: 'cifs sessions,smb clients,active connections,smb encryption,session duration'
 summary: 'View CIFS active sessions'
 ---
 
 = View CIFS active sessions
 :imagesdir: ./media/
 
-
+[.lead]
+Explore CIFS session endpoints to list and manage currently established SMB connections with clients. Access detailed session information, including authentication, open files, and associated volumes, for efficient monitoring and troubleshooting.
 
 == Overview
 

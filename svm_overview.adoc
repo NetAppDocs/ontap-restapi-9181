@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'svm_overview.html'
+keywords: 'storage virtual machine, svm attributes, cifs configuration, nfs configuration, export policies, name mappings'
 summary: 'ONTAP REST API SVM endpoints'
 ---
 
 = ONTAP REST API SVM endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Use Storage Virtual Machine (SVM) endpoints to configure and manage SVMs, including CIFS and NFS protocol settings, export policies, and network services. These endpoints help you ensure secure data isolation and facilitate data access within a cluster, supporting both NAS and SAN environments.
 
 == Overview
 

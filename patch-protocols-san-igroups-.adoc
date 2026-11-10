@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-san-igroups-.html'
+keywords: 'initiator group,igroup update,lun modify,igroup rename,lun bind,initiator uuid'
 summary: 'Update an initiator group'
 ---
 
 = Update an initiator group
 :imagesdir: ./media/
 
+[.lead]
+Updates an initiator group to modify its configuration settings or properties according to your requirements. This is useful for managing access controls and permissions in your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/san/igroups/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates an initiator group.
+ONTAP 9.6
 
 == Related ONTAP commands
 
@@ -981,7 +987,7 @@ All initiators or nested initiator groups in an initiator group must be from the
 
 When an initiator group is created, the `protocol` property is used to restrict member initiators to Fibre Channel (_fcp_), iSCSI (_iscsi_), or both (_mixed_). Initiator groups within a nested hierarchy may not have conflicting protocols.
 
-Zero or more initiators or nested initiator groups can be supplied when the initiator group is created. After creation, initiators can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/initiators` endpoint. Initiator groups containing other initiator groups report the aggregated list of initiators from all nested initiator groups, but modifications of the initiator list must be performed on the initiator group that directly contains the initiators. See link:post-protocols-san-igroups-initiators_-san-igroup-initiator-create_anddelete-protocols-san-igroups-initiators-.html<</SAN/igroup_initiator_create,POST /protocols/san/igroups/{igroup.uuid}/initiators>> and [DELETE /protocols/san/igroups/{igroup.uuid}/initiators/\{name}]  for more details.
+Zero or more initiators or nested initiator groups can be supplied when the initiator group is created. After creation, initiators can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/initiators` endpoint. Initiator groups containing other initiator groups report the aggregated list of initiators from all nested initiator groups, but modifications of the initiator list must be performed on the initiator group that directly contains the initiators. See link:post-protocols-san-igroups-initiators.html[POST /protocols/san/igroups/{igroup.uuid}/initiators]  and link:delete-protocols-san-igroups-initiators-.html[DELETE /protocols/san/igroups/{igroup.uuid}/initiators/\{name}]  for more details.
 
 
 [cols=3*,options=header]

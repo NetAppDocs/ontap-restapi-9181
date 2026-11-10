@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-fabrics-zones.html'
+keywords: 'fibre channel,fabric zones,zoneset retrieval,active zoneset,network fabric'
 summary: 'Retrieve FC fabric zones'
 ---
 
 = Retrieve FC fabric zones
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the zones of the active zoneset in a Fibre Channel fabric to analyze or manage the fabric's zone configuration. This is useful for ensuring the appropriate segmentation and security of your Fibre Channel network.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/fabrics/{fabric.name}/zones`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves the zones of the active zoneset of a Fibre Channel fabric.
 

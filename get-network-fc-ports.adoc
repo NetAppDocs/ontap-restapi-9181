@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-ports.html'
+keywords: 'fc ports,retrieve ports,fibre channel,fcp adapter,networking ports,port statistics'
 summary: 'Retrieve FC ports'
 ---
 
 = Retrieve FC ports
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about FC ports, helping you access configuration details and statistics when needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/ports`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves FC ports.
 

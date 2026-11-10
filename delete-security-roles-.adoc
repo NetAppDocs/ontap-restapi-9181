@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-security-roles-.html'
+keywords: 'role delete,security role,role removal,svm role,security login'
 summary: 'Delete a role'
 ---
 
 = Delete a role
 :imagesdir: ./media/
 
+[.lead]
+Deletes a specified role, removing it from the system. Use this when a role is no longer needed or requires replacement.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes the specified role.
+ONTAP 9.6
 
 == Required parameters
 

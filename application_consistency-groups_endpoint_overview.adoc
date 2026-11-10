@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'application_consistency-groups_endpoint_overview.html'
+keywords: 'consistency group, snapshot creation, volume management, svm details, nested consistency'
 summary: 'Manage application consistency groups'
 ---
 
 = Manage application consistency groups
 :imagesdir: ./media/
 
-
+[.lead]
+Consistency group APIs manage groups of volumes to ensure operations like snapshots are performed consistently across all member volumes. Use these endpoints when applications have datasets spanning multiple volumes and require coordinated operations to maintain data consistency.
 
 == Overview
 

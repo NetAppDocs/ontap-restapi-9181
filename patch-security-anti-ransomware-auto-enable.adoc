@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-anti-ransomware-auto-enable.html'
+keywords: 'anti-ransomware,auto enablement,security settings,modify settings,auto-enable,protection settings'
 summary: 'Modify the anti-ransomware auto enablement setting'
 ---
 
 = Modify the anti-ransomware auto enablement setting
 :imagesdir: ./media/
 
+[.lead]
+Modifies the anti-ransomware auto enablement setting to manage how the system automatically handles ransomware protection measures.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/anti-ransomware/auto-enable`#
 
-*Introduced In:* 9.18
+== Introduced in
 
-Modifies the anti-ransomware auto enablement setting.
-
+ONTAP 9.18
 
 == Request Body
 

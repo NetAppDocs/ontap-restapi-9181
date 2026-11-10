@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-licensing-licenses.html'
+keywords: 'license packages,licensed packages,unlicensed packages,license collection,license retrieval,ontap license'
 summary: 'Retrieve license packages'
 ---
 
 = Retrieve license packages
 :imagesdir: ./media/
 
+[.lead]
+Accesses a collection of license packages to review which licenses are currently active in your system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/licensing/licenses`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of license packages.
 

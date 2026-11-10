@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-software-history.html'
+keywords: 'software history,installation requests,cluster software,update history,software installation,history details'
 summary: 'Retrieve software installation requests history details'
 ---
 
 = Retrieve software installation requests history details
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the history details for software installation requests to review past installation activities and outcomes.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/software/history`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the history details for software installation requests.
+ONTAP 9.6
 
 == Related ONTAP commands
 

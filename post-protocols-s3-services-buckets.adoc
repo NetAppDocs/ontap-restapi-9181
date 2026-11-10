@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services-buckets.html'
+keywords: 'bucket configuration,s3 bucket creation,svm bucket,flexgroup provisioning,cors configuration,qos group policy'
 summary: 'Create an S3 bucket configuration for an SVM'
 ---
 
 = Create an S3 bucket configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Creates an S3 bucket configuration for a Storage Virtual Machine (SVM), setting up the environment to store and manage objects within the SVM. This endpoint allows you to define access policies, QoS settings, and CORS configurations, among other options, to tailor the bucket's functionality to your specific needs.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/buckets`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates the S3 bucket configuration of an SVM.
 

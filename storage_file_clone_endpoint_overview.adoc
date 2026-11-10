@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_file_clone_endpoint_overview.html'
+keywords: 'file clone,clone split,split status,split load,flex group,storage file'
 summary: 'Manage storage file clones'
 ---
 
 = Manage storage file clones
 :imagesdir: ./media/
 
-
+[.lead]
+Use file clone APIs to create and manage clones within a volume, optimizing space by sharing unchanged data blocks between parent and child clones. You can monitor and control split operations, which detach clones and utilize space, ensuring efficient clone management.
 
 == Overview
 

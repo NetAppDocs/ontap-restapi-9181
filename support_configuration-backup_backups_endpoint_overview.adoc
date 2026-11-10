@@ -2,14 +2,16 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'support_configuration-backup_backups_endpoint_overview.htmll'
+permalink: 'support_configuration-backup_backups_endpoint_overview.html'
+keywords: 'configuration backup,cluster backup,node backup,backup deletion,backup retrieval,backup creation'
 summary: 'Manage configuration backups'
 ---
 
 = Manage configuration backups
 :imagesdir: ./media/
 
-
+[.lead]
+This API introduces endpoints for managing configuration backup files, letting you create, delete, and retrieve both cluster and node-specific backups. Use these endpoints to handle on-demand backups or interact with automatically generated ones, ensuring your configuration data is preserved and accessible.
 
 == Overview
 

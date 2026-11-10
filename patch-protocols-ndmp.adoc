@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-ndmp.html'
+keywords: 'ndmp mode,ndmp update,node scope mode,protocol ndmp,ontap ndmp'
 summary: 'Update the NDMP mode'
 ---
 
 = Update the NDMP mode
 :imagesdir: ./media/
 
+[.lead]
+Modifies the NDMP mode configuration to align with your protocol requirements. This operation is useful when you need to adjust settings for the NDMP service in your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/ndmp`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Updates the NDMP mode.
 

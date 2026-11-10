@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_auto-update_updates_endpoint_overview.html'
+keywords: 'automatic updates,retrieve status,package updates,disk firmware,shelf firmware'
 summary: 'Retrieve status for all automatic updates'
 ---
 
 = Retrieve status for all automatic updates
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve the status of all automatic package updates using this API to monitor ongoing update processes within your system. This API supports GET calls, providing detailed information about each update's progress and state.
 
 == Overview
 

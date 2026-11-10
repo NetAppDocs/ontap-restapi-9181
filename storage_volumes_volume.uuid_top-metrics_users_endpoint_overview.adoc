@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_volumes_volume.uuid_top-metrics_users_endpoint_overview.html'
+keywords: 'i/o activity,top metric,iops,throughput,user activity'
 summary: 'View I/O activity for users'
 ---
 
 = View I/O activity for users
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve a list of users with the most I/O activity on a specified volume using this API. Filter for specific I/O activity types such as `iops` or `throughput` to gain insights into user activity patterns. The results can vary due to factors such as client-side caching or error bars when many users are active.
 
 == Overview
 

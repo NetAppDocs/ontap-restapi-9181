@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-resource-tags.html'
+keywords: 'resource tags,tag retrieval,tag filtering,record limit,order results'
 summary: 'Retrieve the tags currently used for resources'
 ---
 
 = Retrieve the tags currently used for resources
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the tags currently used for resources, helping you manage and categorize your resources efficiently.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/resource-tags`#
 
-*Introduced In:* 9.13
+== Introduced in
+
+ONTAP 9.13
+
+== Usage notes
 
 Retrieves the tags currently being used for resources in the API.
 

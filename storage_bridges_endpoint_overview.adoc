@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_bridges_endpoint_overview.html'
+keywords: 'storage bridge,cluster bridges,bridge information,storage retrieval,bridge management'
 summary: 'Manage storage bridges'
 ---
 
 = Manage storage bridges
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve information about storage bridges within your ONTAP cluster using the storage bridge GET API endpoints. These endpoints provide access to all bridges in the cluster, facilitating effective monitoring and management of storage connectivity.
 
 == Retrieving storage bridge information
 

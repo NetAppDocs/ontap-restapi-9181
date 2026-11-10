@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-managers.html'
+keywords: 'key managers,retrieve key managers,security key managers,key manager status,key manager fields'
 summary: 'Retrieve key managers'
 ---
 
 = Retrieve key managers
 :imagesdir: ./media/
 
+[.lead]
+Retrieves key managers to manage and monitor external key management configurations in your storage environment. Use this endpoint to access detailed information on active key management configurations, including status and health indicators.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-managers`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves key managers.
+ONTAP 9.6
 
 == Expensive properties
 
