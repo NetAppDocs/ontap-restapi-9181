@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-unix-groups.html'
+keywords: 'unix groups,svm unix,unix group members,svm users,ontap unix'
 summary: 'Retrieve UNIX groups for all SVMs'
 ---
 
 = Retrieve UNIX groups for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Accesses the list of UNIX groups across all SVMs, including the members within each group. This helps you manage and review group membership for UNIX users in your environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/unix-groups`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves the UNIX groups for all of the SVMs. UNIX users who are the members of the group are also displayed.
 

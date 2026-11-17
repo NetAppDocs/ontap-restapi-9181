@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'name-services_cache_unix-group_settings_endpoint_overview.html'
+keywords: 'unix group cache,svm settings,cache settings,negative cache,ttl settings,propagation enabled'
 summary: 'Manage UNIX group cache settings'
 ---
 
 = Manage UNIX group cache settings
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage UNIX group cache settings to control how group information is stored and accessed within your ONTAP environment. Use these endpoints to configure cache settings for specific SVMs, ensuring efficient data propagation and reducing lookup times.
 
 == Overview
 

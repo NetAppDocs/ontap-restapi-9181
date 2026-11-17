@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_session_files_endpoint_overview.html'
+keywords: 'cifs sessions,open files,session files,active file sessions,close file'
 summary: 'View CIFS active file sessions'
 ---
 
 = View CIFS active file sessions
+:imagesdir: ./media/
 
-
+[.lead]
+Access and manage currently opened files in CIFS sessions using these endpoints. Monitor active file sessions and retrieve detailed information about each open file for effective session management.
 
 == Overview
 

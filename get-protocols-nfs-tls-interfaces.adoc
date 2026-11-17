@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-tls-interfaces.html'
+keywords: 'nfs tls,network interfaces,nfs security,protocols interfaces,svm filtering,certificate filtering'
 summary: 'Retrieve NFS over TLS interface configurations'
 ---
 
 = Retrieve NFS over TLS interface configurations
+:imagesdir: ./media/
+
+[.lead]
+Retrieves NFS over TLS interface configurations to view the current setup of secure network interfaces for NFS communication. This helps ensure that data transfers over NFS are protected with TLS encryption.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/tls/interfaces`#
 
-*Introduced In:* 9.15
+== Introduced in
+
+ONTAP 9.15
+
+== Usage notes
 
 Retrieves NFS over TLS interfaces.
 

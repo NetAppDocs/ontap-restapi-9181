@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-cluster.html'
+keywords: 'create cluster,cluster creation,single node cluster,management interface,configuration backup,dns domains'
 summary: 'Create a cluster'
 ---
 
 = Create a cluster
+:imagesdir: ./media/
+
+[.lead]
+Creates a cluster to establish a new ONTAP deployment, setting up the necessary environment for managing your storage resources.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a cluster.
+ONTAP 9.6
 
 == Required properties
 

@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-fpolicy-policies.html'
+keywords: 'fpolicy configuration,svm policy,cluster level policy,data svm,fpolicy scope,policy retrieval'
 summary: 'Retrieve an FPolicy configuration for an SVM'
 ---
 
 = Retrieve an FPolicy configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the FPolicy policy configuration of an SVM, which includes the cluster-level FPolicy policy that serves as a template for all data SVMs in the cluster. Use this information to understand or manage FPolicy policies associated with a specific SVM.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the FPolicy policy configuration of an SVM. ONTAP allows the creation of a cluster level FPolicy policy that acts as a template for all the data SVMs belonging to the cluster. This cluster level FPolicy policy is also retrieved for the specified SVM.
+ONTAP 9.6
+
+== Usage notes
+
+ONTAP allows the creation of a cluster level FPolicy policy that acts as a template for all the data SVMs belonging to the cluster. This cluster level FPolicy policy is also retrieved for the specified SVM.
 
 == Related ONTAP commands
 

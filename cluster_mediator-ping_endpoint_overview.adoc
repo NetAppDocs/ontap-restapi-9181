@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_mediator-ping_endpoint_overview.html'
+keywords: 'bluexp cloud,service reachability,ping latency,mediator ping,post request'
 summary: 'Manage the BlueXP cloud service'
 ---
 
 = Manage the BlueXP cloud service
+:imagesdir: ./media/
 
-
+[.lead]
+Ping the BlueXP cloud service using this API to assess service reachability, configurability, and latency. Issue a POST request with the required parameters to perform the operation and obtain detailed insights into service connectivity.
 
 == Overview
 

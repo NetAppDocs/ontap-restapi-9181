@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-san-lun-maps-.html'
+keywords: 'lun delete,lun map,lun removal,san protocols,igroup removal'
 summary: 'Delete a LUN map'
 ---
 
 = Delete a LUN map
+:imagesdir: ./media/
+
+[.lead]
+Removes a LUN map, which eliminates the mapping between a logical unit number and a host. This operation is typically used when you need to decommission or reconfigure storage access.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/san/lun-maps/{lun.uuid}/{igroup.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a LUN map.
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-audit.html'
+keywords: 'audit configurations,audit retrieval,log format,rotation schedule,security events'
 summary: 'Retrieve audit configurations'
 ---
 
 = Retrieve audit configurations
+:imagesdir: ./media/
+
+[.lead]
+Retrieves audit configurations to understand the current auditing setup for your ONTAP system. This helps you ensure compliance and track activity across your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/audit`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves audit configurations.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-s3-services-buckets-snapshots.html'
+keywords: 's3 bucket snapshots,ontap s3 snapshots,vserver snapshot retrieval,bucket snapshot collection,svm bucket snapshots'
 summary: 'Retrieve a collection of S3 bucket snapshots'
 ---
 
 = Retrieve a collection of S3 bucket snapshots
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of S3 bucket snapshots to view or manage the snapshots associated with your storage resources.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/buckets/{s3_bucket.uuid}/snapshots`#
 
-*Introduced In:* 9.16
+== Introduced in
 
-Retrieves a collection of S3 bucket snapshots.
+ONTAP 9.16
 
 == Related ONTAP commands
 

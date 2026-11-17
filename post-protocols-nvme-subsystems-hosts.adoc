@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nvme-subsystems-hosts.html'
+keywords: 'nvme subsystem,subsystem host,add host,nvme protocol,subsystem uuid'
 summary: 'Add NVMe subsystem hosts'
 ---
 
 = Add NVMe subsystem hosts
+:imagesdir: ./media/
+
+[.lead]
+Adds host(s) to an NVMe subsystem to expand its configuration. This operation is typically performed to integrate new NVMe hosts into your existing storage network.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nvme/subsystems/{subsystem.uuid}/hosts`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Adds NVMe subsystem host(s) to an NVMe subsystem.
 

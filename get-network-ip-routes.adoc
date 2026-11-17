@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-routes.html'
+keywords: 'ip routes,retrieve routes,network routes,filter routes,route gateway,route netmask'
 summary: 'Retrieve IP routes'
 ---
 
 = Retrieve IP routes
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the collection of IP routes to understand network routing configurations in your environment. This helps you manage and optimize network traffic effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/routes`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the collection of IP routes.
+ONTAP 9.6
 
 == Expensive properties
 

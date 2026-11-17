@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_group-policies_svm.uuid_objects_endpoint_overview.html'
+keywords: 'group policy,ldap queries,active directory,gpo information,smb server'
 summary: 'View group policy objects'
 ---
 
 = View group policy objects
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve group policy objects (GPO) information for your SMB server via LDAP queries sent to the Active Directory server. Use these endpoints to access details such as GPO names, versions, and UUIDs for policy sets applicable to your environment.
 
 == Overview
 

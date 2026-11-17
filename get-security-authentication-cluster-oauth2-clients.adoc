@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-authentication-cluster-oauth2-clients.html'
+keywords: 'oauth2 configurations,cluster authentication,security oauth2,client configurations,oauth2 settings'
 summary: 'Retrieve all OAuth 2.0 configurations'
 ---
 
 = Retrieve all OAuth 2.0 configurations
+:imagesdir: ./media/
+
+[.lead]
+Retrieves all OAuth 2.0 configurations to review the authentication settings and ensure they align with your security policies.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/cluster/oauth2/clients`#
 
-*Introduced In:* 9.14
+== Introduced in
 
-Retrieves all OAuth 2.0 configurations.
+ONTAP 9.14
 
 == Related ONTAP commands
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-initiators.html'
+keywords: 'initiators,san protocols,lun initiator,svm filter,record limit,order results'
 summary: 'Retrieve initiators'
 ---
 
 = Retrieve initiators
+:imagesdir: ./media/
+
+[.lead]
+Accesses initiator details to manage and configure SAN protocols efficiently.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/initiators`#
 
-*Introduced In:* 9.14
+== Introduced in
+
+ONTAP 9.14
+
+== Usage notes
 
 Retrieves initiators.
 

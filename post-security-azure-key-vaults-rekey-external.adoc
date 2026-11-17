@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-azure-key-vaults-rekey-external.html'
+keywords: 'azure key vault,rekey external,key hierarchy,svm akv,key encryption,key manager'
 summary: 'Re-key the external key in the key hierarchy'
 ---
 
 = Re-key the external key in the key hierarchy
+:imagesdir: ./media/
+
+[.lead]
+Rekeys the external key in the key hierarchy for an SVM configured with an Azure Key Vault (AKV), ensuring that the encryption key is updated for security compliance.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/azure-key-vaults/{azure_key_vault.uuid}/rekey-external`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Rekeys the external key in the key hierarchy for an SVM with an AKV configuration.
 

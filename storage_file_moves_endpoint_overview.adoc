@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_file_moves_endpoint_overview.html'
+keywords: 'file move,storage management,flexvol volume,flexgroup volume,capacity rebalancing'
 summary: 'Manage storage file moves'
 ---
 
 = Manage storage file moves
+:imagesdir: ./media/
 
-
+[.lead]
+Manage file move operations between FlexVol volumes or within a FlexGroup volume using this API. You can track the status of ongoing file moves across the cluster.
 
 == Overview
 

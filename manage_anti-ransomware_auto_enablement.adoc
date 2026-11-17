@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_anti-ransomware_auto_enablement.html'
+keywords: 'anti-ransomware,auto enablement,warm-up period,new volume,existing volume'
 summary: 'Manage anti-ransomware auto enablement'
 ---
 
 = Manage anti-ransomware auto enablement
+:imagesdir: ./media/
 
-
+[.lead]
+Review the anti-ransomware auto enablement status to understand current settings and warm-up periods. Use these endpoints to monitor and adjust protection measures against ransomware threats.
 
 == Overview
 

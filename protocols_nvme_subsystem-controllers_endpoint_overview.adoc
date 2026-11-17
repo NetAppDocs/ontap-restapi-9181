@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_nvme_subsystem-controllers_endpoint_overview.html'
+keywords: 'nvme subsystem,non-volatile memory express,nvme controller,storage solution,connected hosts'
 summary: 'View NVMe subsystem controllers'
 ---
 
 = View NVMe subsystem controllers
+:imagesdir: ./media/
 
-
+[.lead]
+Access NVMe subsystem controllers endpoints to gather information about dynamic connections between hosts and storage solutions. Use these endpoints to retrieve details about specific subsystem controllers or view all controllers across the system.
 
 == Overview
 

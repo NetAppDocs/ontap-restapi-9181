@@ -2,13 +2,16 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'storage_aggregates_uuid_metrics_endpoint_overview.htmll'
+permalink: 'storage_aggregates_uuid_metrics_endpoint_overview.html'
+keywords: 'storage aggregate,performance metrics,iops latency,hosted volumes,data protection'
 summary: 'Manage storage aggregate metrics'
 ---
 
 = Manage storage aggregate metrics
+:imagesdir: ./media/
 
-
+[.lead]
+Access storage aggregate metrics to analyze historical performance data for specific aggregates. Retrieve metrics such as IOPS, latency, and throughput to assess read, write, and background operations. Without a specified interval, metrics default to 15-second statistics over the last hour.
 
 == Overview
 

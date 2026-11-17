@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_flexcache_flexcaches_endpoint_overview.html'
+keywords: 'flexcache,flexgroup,flexvol,cache cluster,intra cluster'
 summary: 'Manage FlexCache volumes'
 ---
 
 = Manage FlexCache volumes
+:imagesdir: ./media/
 
-
+[.lead]
+Manage FlexCache volumes to optimize data access and storage efficiency across your environment. These endpoints facilitate retrieving and configuring FlexCache settings, supporting various relationship configurations and fan-out scenarios.
 
 == Overview
 

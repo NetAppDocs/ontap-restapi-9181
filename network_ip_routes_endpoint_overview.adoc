@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'network_ip_routes_endpoint_overview.html'
+keywords: 'network routes, ip routes, cluster routes, svm routes, ipspace routes'
 summary: 'Manage network IP routes'
 ---
 
 = Manage network IP routes
+:imagesdir: ./media/
 
-
+[.lead]
+Manage network IP routes to configure, retrieve, and delete routing information within your ONTAP cluster. Use these endpoints to perform operations such as querying existing routes or adding new routes to optimize network traffic flow.
 
 == Overview
 

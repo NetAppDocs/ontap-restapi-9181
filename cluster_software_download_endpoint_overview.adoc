@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_software_download_endpoint_overview.html'
+keywords: 'cluster software,cluster firmware,software download,firmware download,download progress'
 summary: 'Manage cluster software downloads'
 ---
 
 = Manage cluster software downloads
+:imagesdir: ./media/
 
-
+[.lead]
+Use this API to download software or firmware packages directly to your cluster and monitor the progress of each download. You might retrieve packages from HTTP or FTP servers, checking the download status to ensure successful completion.
 
 == Overview
 

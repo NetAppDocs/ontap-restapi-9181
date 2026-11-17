@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_aggregates_aggregate.uuid_plexes_endpoint_overview.html'
+keywords: 'storage aggregate,aggregate plex,raid groups,plex disks,storage management'
 summary: 'Manage storage aggregate plexes'
 ---
 
 = Manage storage aggregate plexes
+:imagesdir: ./media/
 
-
+[.lead]
+The Storage Aggregate Plex API provides state information for each plex within an aggregate, offering details about the RAID groups and the disks composing them. Use these endpoints to retrieve specific plex configurations and understand their component structures for effective storage monitoring and management.
 
 == Overview
 

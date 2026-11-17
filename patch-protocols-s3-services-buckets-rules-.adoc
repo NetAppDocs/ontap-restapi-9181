@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-s3-services-buckets-rules-.html'
+keywords: 'bucket lifecycle,object expiry,delete marker,non-current version,aborted upload'
 summary: 'Update the S3 bucket lifecycle rule configuration'
 ---
 
 = Update the S3 bucket lifecycle rule configuration
+:imagesdir: ./media/
+
+[.lead]
+Updates the S3 bucket lifecycle rule configuration to manage the lifecycle of objects within your bucket, such as specifying when objects should be deleted or transitioned. Use this operation to ensure your bucket's lifecycle policies align with your data management requirements.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/buckets/{s3_bucket.uuid}/rules/{name}`#
 
-*Introduced In:* 9.13
+== Introduced in
 
-Updates the S3 bucket lifecycle rule configuration.
+ONTAP 9.13
 
 == Important notes
 

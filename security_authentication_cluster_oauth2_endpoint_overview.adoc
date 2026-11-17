@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_authentication_cluster_oauth2_endpoint_overview.html'
+keywords: 'oauth cluster,status update,enable oauth,disable oauth,oauth patch,oauth get'
 summary: 'View and update OAuth 2.0 status'
 ---
 
 = View and update OAuth 2.0 status
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to view and update the OAuth 2.0 status in the cluster, ensuring secure authentication configurations. This API helps manage the enablement of OAuth 2.0, providing flexibility in security settings.
 
 == Overview
 

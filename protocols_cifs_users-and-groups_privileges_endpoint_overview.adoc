@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_users-and-groups_privileges_endpoint_overview.html'
+keywords: 'cifs privileges,active directory permissions,local user privileges,svm user groups,manage user privileges'
 summary: 'Manage CIFS user group privileges'
 ---
 
 = Manage CIFS user group privileges
+:imagesdir: ./media/
 
-
+[.lead]
+Use the CIFS user group privileges endpoints to manage permissions for local or Active Directory users or groups within an SVM. These endpoints enable you to display, control, add, update, or reset privileges as required.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-security-roles--privileges-.html'
+keywords: 'privilege tuple,role privilege,delete privilege,rest uri privilege,resource-qualified endpoint,ontap roles'
 summary: 'Delete a privilege tuple from the role'
 ---
 
 = Delete a privilege tuple from the role
+:imagesdir: ./media/
+
+[.lead]
+Deletes a privilege tuple from a role, which includes the REST URI or command path, its access level, and an optional query. This action is useful when you need to remove specific access permissions associated with a role.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}/privileges/{path}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a privilege tuple (of REST URI or command/command directory path, its access level and an optional query) from the role. The REST URI can be a resource-qualified endpoint. Currently, the only supported resource-qualified endpoints are the following&#58;
 

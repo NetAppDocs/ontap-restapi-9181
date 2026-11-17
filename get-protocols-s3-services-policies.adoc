@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-s3-services-policies.html'
+keywords: 's3 policies,svm configuration,s3 services,object store policy,vserver policy'
 summary: 'Retrieve the S3 policies in an SVM configuration'
 ---
 
 = Retrieve the S3 policies in an SVM configuration
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the S3 policies configured within an SVM to view and manage the policies that govern S3 operations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/policies`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves the S3 policies SVM configuration.
 

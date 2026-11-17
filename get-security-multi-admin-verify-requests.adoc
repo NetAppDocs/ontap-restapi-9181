@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-multi-admin-verify-requests.html'
+keywords: 'multi-admin verify,approved users,execution expiry,time filters,potential approvers,pending approvers'
 summary: 'Retrieve multi-admin-verify requests'
 ---
 
 = Retrieve multi-admin-verify requests
+:imagesdir: ./media/
+
+[.lead]
+Retrieves multi-admin-verify requests to review or manage verification workflows involving multiple administrators.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/multi-admin-verify/requests`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves multi-admin-verify requests.
-
+ONTAP 9.11
 
 == Parameters
 

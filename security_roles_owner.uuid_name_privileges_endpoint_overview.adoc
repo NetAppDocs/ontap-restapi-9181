@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_roles_owner.uuid_name_privileges_endpoint_overview.html'
+keywords: 'role privilege,configure privileges,resource paths,access levels,svm roles,cluster roles'
 summary: 'Manage role privilege details'
 ---
 
 = Manage role privilege details
+:imagesdir: ./media/
 
-
+[.lead]
+Configure and manage role privileges to control access to specific REST API endpoints or command directory paths. Use these APIs to retrieve existing privilege tuples, add new tuples to roles, or create roles with defined access levels. The endpoints support both SVM-scoped and cluster-scoped roles, ensuring flexible access management within your environment.
 
 == Overview
 

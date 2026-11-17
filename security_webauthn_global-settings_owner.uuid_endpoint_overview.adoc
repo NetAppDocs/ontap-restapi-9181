@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_webauthn_global-settings_owner.uuid_endpoint_overview.html'
+keywords: 'webauthn settings,global settings,cluster svm settings,owner uuid,security settings'
 summary: 'View a WebAuthn global setting entry'
 ---
 
 = View a WebAuthn global setting entry
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve WebAuthn global settings for a cluster or SVM using this endpoint. You can specify the owner UUID and the unique identifier to access the settings.
 
 == Overview
 

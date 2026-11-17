@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-barbican-kms.html'
+keywords: 'barbican kms,svm configuration,external key-manager,barbican reachability,cluster state'
 summary: 'Retrieve Barbican KMS configurations for all SVMs'
 ---
 
 = Retrieve Barbican KMS configurations for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Retrieves Barbican KMS configurations for all SVMs to manage and review key management settings across your storage virtual machines.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/barbican-kms`#
 
-*Introduced In:* 9.17
+== Introduced in
 
-Retrieves Barbican KMS configurations for all SVMs.
+ONTAP 9.17
 
 == Related ONTAP commands
 

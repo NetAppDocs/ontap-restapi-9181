@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-active-directory.html'
+keywords: 'active directory,svm accounts,cifs security,preferred dc,discovered servers'
 summary: 'Retrieve Active Directory accounts for all SVMs'
 ---
 
 = Retrieve Active Directory accounts for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Accesses the Active Directory accounts associated with all Storage Virtual Machines (SVMs). This information is typically used for managing and verifying Active Directory integrations across your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/active-directory`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves Active Directory accounts for all SVMs.
 

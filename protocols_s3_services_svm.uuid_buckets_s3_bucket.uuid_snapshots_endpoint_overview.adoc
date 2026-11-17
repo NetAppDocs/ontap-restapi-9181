@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_s3_services_svm.uuid_buckets_s3_bucket.uuid_snapshots_endpoint_overview.html'
+keywords: 's3 bucket snapshots,snapshot creation,snapshot retrieval,snapshot deletion,scheduled snapshot policies,user requested snapshots'
 summary: 'Manage S3 bucket snapshots'
 ---
 
 = Manage S3 bucket snapshots
+:imagesdir: ./media/
 
-
+[.lead]
+Manage S3 bucket snapshots through REST API endpoints to create, delete, and retrieve snapshots of your S3 buckets. Utilize these APIs for both scheduled snapshot policies and user-requested snapshot actions, ensuring you capture bucket states at specific points in time.
 
 == Overview
 

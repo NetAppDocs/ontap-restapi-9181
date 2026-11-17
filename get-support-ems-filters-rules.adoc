@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-ems-filters-rules.html'
+keywords: 'event filter,ems filters,filter rules,event rules,severity filter,snmp trap'
 summary: 'Retrieve event filter rules'
 ---
 
 = Retrieve event filter rules
+:imagesdir: ./media/
+
+[.lead]
+Retrieves event filter rules to manage and customize how events are filtered within your system. This helps you ensure that only relevant events are processed, improving efficiency and focus.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/filters/{name}/rules`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves event filter rules.
+ONTAP 9.6
 
 == Related ONTAP commands
 

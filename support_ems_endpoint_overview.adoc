@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_ems_endpoint_overview.html'
+keywords: 'ems configuration, event management, email parameters, system-wide email, cluster configuration'
 summary: 'Manage EMS configuration'
 ---
 
 = Manage EMS configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure the Event Management System (EMS) parameters to tailor system-wide notifications and alerts for your cluster. Use these endpoints to set up email parameters and retrieve current configurations, ensuring effective communication management.
 
 == Overview
 

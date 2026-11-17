@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_authentication_cluster_ad-proxy_endpoint_overview.html'
+keywords: 'active directory,domain authentication,data svm,cluster accounts,ad proxy'
 summary: 'Manage data SVM account information'
 ---
 
 = Manage data SVM account information
+:imagesdir: ./media/
 
-
+[.lead]
+Configure data SVM account information to facilitate Active Directory domain-based authentication for cluster accounts. This setup ensures that authentication requests are routed through a designated data SVM registered as a machine account in Active Directory.
 
 == Overview
 

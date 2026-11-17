@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_san_lun-maps_lun.uuid_igroup.uuid_reporting-nodes_endpoint_overview.html'
+keywords: 'lun map,reporting nodes,selective lun map,host paths,initiator group'
 summary: 'Add, remove, or discover LUN map reporting nodes'
 ---
 
 = Add, remove, or discover LUN map reporting nodes
+:imagesdir: ./media/
 
-
+[.lead]
+Manage LUN map reporting nodes to optimize and control network paths advertised to mapped LUNs through SAN protocols. Utilize these endpoints to add, remove, or discover reporting nodes, ensuring efficient path management and adherence to specific configurations within your cluster.
 
 == Overview
 

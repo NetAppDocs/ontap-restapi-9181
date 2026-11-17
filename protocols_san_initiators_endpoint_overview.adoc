@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_san_initiators_endpoint_overview.html'
+keywords: 'san initiator,initiator group,svm configuration,fc wwpn,iscsi iqn'
 summary: 'Manage SAN initiators'
 ---
 
 = Manage SAN initiators
+:imagesdir: ./media/
 
-
+[.lead]
+Explore SAN initiator endpoints to access properties and manage configuration within your storage virtual machines (SVMs). Use these endpoints to control host access to specific logical units (LUNs) via initiator groups, ensuring efficient SAN network operations.
 
 == Overview
 

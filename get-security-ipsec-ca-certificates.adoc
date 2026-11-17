@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-ipsec-ca-certificates.html'
+keywords: 'ipsec certificates,ca certificates,svm certificates,cluster certificates,certificate retrieval,certificate filtering'
 summary: 'Retrieve IPsec CA certificates configured for the cluster and all SVMs'
 ---
 
 = Retrieve IPsec CA certificates configured for the cluster and all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Retrieves IPsec CA certificates configured for the cluster and all SVMs to manage and verify secure connections within your storage network.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/ipsec/ca-certificates`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the collection of IPsec CA certificates configured for cluster and all SVMs.
 

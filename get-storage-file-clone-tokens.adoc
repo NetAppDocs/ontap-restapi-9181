@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-file-clone-tokens.html'
+keywords: 'clone token,node uuid,reserve size,expiry time,file clone'
 summary: 'Retrieve information for a token'
 ---
 
 = Retrieve information for a token
+:imagesdir: ./media/
+
+[.lead]
+Retrieves detailed information about a specific clone token, which helps you manage file cloning operations effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/clone/tokens`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves information for the specified token.
 
@@ -206,7 +217,23 @@ a|
   },
   "num_records": 1,
   "records": [
-    {}
+    {
+      "_links": {
+        "self": {
+          "href": "/api/resourcelink"
+        }
+      },
+      "expiry_time": {
+        "left": "string",
+        "limit": "string"
+      },
+      "node": {
+        "name": "string",
+        "uuid": "string"
+      },
+      "reserve_size": 0,
+      "uuid": "string"
+    }
   ]
 }
 ====

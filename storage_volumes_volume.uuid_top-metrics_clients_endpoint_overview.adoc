@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_volumes_volume.uuid_top-metrics_clients_endpoint_overview.html'
+keywords: 'i/o activity,client traffic,iops,throughput,volume activity'
 summary: 'View I/O activity for clients'
 ---
 
 = View I/O activity for clients
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and analyze client I/O activity for specified volumes using this API. Filter and order results by `iops` or `throughput` metrics to gain insights into recent client interactions and performance. Note that under certain conditions, the API may provide approximate results or fail to return data due to specific limitations.
 
 == Overview
 

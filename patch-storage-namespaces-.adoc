@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-namespaces-.html'
+keywords: 'nvme namespace,update namespace,storage namespaces,nvme storage,namespace modify'
 summary: 'Update an NVMe namespace'
 ---
 
 = Update an NVMe namespace
+:imagesdir: ./media/
+
+[.lead]
+Updates an NVMe namespace to modify its attributes or configuration settings. This operation is useful when you need to adjust namespace parameters to meet changing storage requirements.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/namespaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates an NVMe namespace.
+ONTAP 9.6
 
 == Related ONTAP commands
 

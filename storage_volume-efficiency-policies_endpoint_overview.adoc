@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_volume-efficiency-policies_endpoint_overview.html'
+keywords: 'volume efficiency,efficiency policies,manage volume,schedule policy,qos policy'
 summary: 'Manage volume efficiency policies'
 ---
 
 = Manage volume efficiency policies
+:imagesdir: ./media/
 
-
+[.lead]
+Use volume efficiency policy endpoints to manage the efficiency policies applied to volumes within your storage environment. These APIs enable operations such as creating, retrieving, updating, and deleting policy information, ensuring optimized data storage management.
 
 :doctype: book
 

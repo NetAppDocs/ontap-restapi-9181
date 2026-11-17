@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-bgp-peer-groups.html'
+keywords: 'bgp peer groups,vip bgp,network peer groups,peer group details,ipspace filters,peer group state'
 summary: 'Retrieve all BGP peer group details for VIP'
 ---
 
 = Retrieve all BGP peer group details for VIP
+:imagesdir: ./media/
+
+[.lead]
+Accesses the details of all BGP peer groups for VIP to review the configuration and status of these network connections.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/bgp/peer-groups`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the details of all BGP peer groups for VIP.
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-stores.html'
+keywords: 'keystores,security key-manager,key store,type filter,location filter,state filter'
 summary: 'Retrieve keystores'
 ---
 
 = Retrieve keystores
+:imagesdir: ./media/
+
+[.lead]
+Retrieves keystores to access or review the stored encryption keys and their configurations. This is useful for managing security settings and compliance audits.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-stores`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves keystores.
+ONTAP 9.10
 
 == Related ONTAP commands
 

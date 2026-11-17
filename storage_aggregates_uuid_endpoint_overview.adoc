@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_aggregates_uuid_endpoint_overview.html'
+keywords: 'storage aggregates,aggregate expansion,ssd cache,raid type,asa r2'
 summary: 'Manage storage aggregates'
 ---
 
 = Manage storage aggregates
+:imagesdir: ./media/
 
-
+[.lead]
+Modify storage aggregates using the PATCH operation to update various properties, such as name, node location, state, disk count, RAID size, and encryption settings, among others. These operations assist in managing aggregate configurations within your ONTAP environment, ensuring optimal performance and capacity planning. Certain actions, like modifying disk count during automatic aggregate creation simulations, may be restricted.
 
 == Updating storage aggregates
 
@@ -262,7 +265,7 @@ curl -X GET "https://<mgmt-ip>/api/storage/aggregates/538bf337-1b2c-11e8-bad0-00
 }
 ----
 
-For more information and examples on viewing historical performance metrics for any given aggregate, see link:storage_aggregates_uuid_metrics_endpoint_overview.htmll[DOC /storage/aggregates/\{uuid}/metrics]
+For more information and examples on viewing historical performance metrics for any given aggregate, see link:storage_aggregates_uuid_metrics_endpoint_overview.html[DOC /storage/aggregates/\{uuid}/metrics]
 
 === Simulating aggregate expansion
 

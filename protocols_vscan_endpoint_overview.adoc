@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_vscan_endpoint_overview.html'
+keywords: 'vscan configuration,vscan protection,ontap vscan,external servers,antivirus connector,storage system'
 summary: 'View and create Vscan configuration'
 ---
 
 = View and create Vscan configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Use Vscan endpoints to manage virus scanning configurations, protecting your data from viruses and malicious code. These endpoints facilitate communication between storage systems and external antivirus servers, integrating ONTAP features with third-party software for flexible scanning control. Note that Vscan is not supported on continuous availability shares.
 
 == Overview
 

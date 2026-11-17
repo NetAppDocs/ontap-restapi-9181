@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_nvme_subsystems_endpoint_overview.html'
+keywords: 'nvme subsystems,manage nvme,namespace access,subsystem configuration,nvme hosts,nvme namespaces'
 summary: 'Manage NVMe subsystems'
 ---
 
 = Manage NVMe subsystems
+:imagesdir: ./media/
 
-
+[.lead]
+The NVMe subsystem REST API enables you to manage NVMe subsystems, including creating, updating, and deleting them and configuring namespace access for NVMe-connected hosts. Use these endpoints to control host access and discover subsystem configurations efficiently.
 
 == Overview
 

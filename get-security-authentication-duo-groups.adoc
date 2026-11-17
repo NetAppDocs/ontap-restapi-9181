@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-authentication-duo-groups.html'
+keywords: 'duo groups,authentication duo,security duo,group retrieval,configured groups'
 summary: 'Retrieve the configured groups'
 ---
 
 = Retrieve the configured groups
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the configured groups to review the current setup of authentication groups in your environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/duo/groups`#
 
-*Introduced In:* 9.14
+== Introduced in
 
-Retrieves the configured groups.
+ONTAP 9.14
 
 == Related ONTAP commands
 

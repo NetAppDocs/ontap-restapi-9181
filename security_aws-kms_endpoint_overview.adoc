@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_aws-kms_endpoint_overview.html'
+keywords: 'amazon key management,secure store secrets,customer master key,aws encryption keys,ontap kms'
 summary: 'Manage AWS KMS'
 ---
 
 = Manage AWS KMS
+:imagesdir: ./media/
 
-
+[.lead]
+Use the AWS KMS endpoints to securely manage encryption keys for your ONTAP environments. These endpoints facilitate the creation, retrieval, and updating of key configurations, ensuring that your encryption processes are integrated with AWS's robust key management system.
 
 == Overview
 

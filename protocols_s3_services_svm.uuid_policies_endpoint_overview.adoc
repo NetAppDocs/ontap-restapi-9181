@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_s3_services_svm.uuid_policies_endpoint_overview.html'
+keywords: 's3 policies,manage permissions,access control,resource management,svm policies'
 summary: 'Manage S3 service policies'
 ---
 
 = Manage S3 service policies
+:imagesdir: ./media/
 
-
+[.lead]
+Manage S3 service policies to control access permissions for buckets and objects within your environment. Use these endpoints to create, update, retrieve, and delete policies that define resource access rules.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-quota-rules.html'
+keywords: 'quota policy,quota rules,flexvol volumes,flexgroup volumes,qtree limits,storage quota'
 summary: 'Retrieve quota policy rules for all FlexVol and FlexGroup volumes'
 ---
 
 = Retrieve quota policy rules for all FlexVol and FlexGroup volumes
+:imagesdir: ./media/
+
+[.lead]
+Accesses the quota policy rules for all FlexVol and FlexGroup volumes, helping you understand the configured limitations and allowances on these storage resources.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/quota/rules`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves quota policy rules configured for all FlexVol volumes and FlexGroup volumes.
 

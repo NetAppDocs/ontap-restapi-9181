@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_s3_services_svm.uuid_buckets_s3_bucket.uuid_rules_endpoint_overview.html'
+keywords: 's3 bucket management,lifecycle rules,s3 object actions,svm bucket,lifecycle expiration'
 summary: 'Manage S3 bucket lifecycle management rules'
 ---
 
 = Manage S3 bucket lifecycle management rules
+:imagesdir: ./media/
 
-
+[.lead]
+Define and manage lifecycle management rules for objects within S3 buckets to automate actions such as expiration and deletion of incomplete uploads. Use these endpoints to optimize storage use by specifying conditions and actions for object management.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'svm_peers_endpoint_overview.html'
+keywords: 'svm peers,svm peering,manage svm,peer relationships,svm management'
 summary: 'Manage SVM peer relationships'
 ---
 
 = Manage SVM peer relationships
+:imagesdir: ./media/
 
-
+[.lead]
+Manage SVM peering relationships to facilitate communication and resource sharing between storage virtual machines. Use these endpoints to create, modify, and remove peer connections as needed for your storage network.
 
 == Managing SVM peers
 

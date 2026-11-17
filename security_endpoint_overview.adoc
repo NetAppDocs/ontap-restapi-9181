@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_endpoint_overview.html'
+keywords: 'security operations, onboard key manager, software encryption, fips mode, tls configuration, security protocols'
 summary: 'Manage security-related operations'
 ---
 
 = Manage security-related operations
+:imagesdir: ./media/
 
-
+[.lead]
+Manage security-related operations across your cluster using this API. Retrieve and configure settings for key management, software data encryption, FIPS mode, TLS protocols, and security protocols to bolster your cluster’s security posture.
 
 == Overview
 

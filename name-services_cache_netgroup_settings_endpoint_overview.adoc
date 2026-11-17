@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'name-services_cache_netgroup_settings_endpoint_overview.html'
+keywords: 'netgroup cache,netgroup settings,cache management,svm settings,ttl configuration,negative cache'
 summary: 'Manage netgroup cache settings'
 ---
 
 = Manage netgroup cache settings
+:imagesdir: ./media/
 
-
+[.lead]
+Adjust netgroup cache settings to optimize your ONTAP system's performance. Use these endpoints to retrieve or update settings for specific storage virtual machines (SVMs), ensuring efficient cache management across your environment.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'network_ethernet_switches_endpoint_overview.html'
+keywords: 'ethernet switches,manage switches,snmp configuration,switch monitoring,cisco nexus'
 summary: 'Manage Ethernet switches'
 ---
 
 = Manage Ethernet switches
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to manage Ethernet switches within your ONTAP environment, covering tasks such as retrieval, configuration, addition, deletion, and SNMP credential changes. Monitoring and configuration of Ethernet switches ensure optimal network operations and status visibility.
 
 == Overview
 

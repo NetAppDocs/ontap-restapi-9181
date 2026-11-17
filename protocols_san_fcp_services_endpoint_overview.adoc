@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_san_fcp_services_endpoint_overview.html'
+keywords: 'fibre channel,svm management,fc protocol,iops monitoring,service discovery,performance latency'
 summary: 'Manage FC services for SVMs'
 ---
 
 = Manage FC services for SVMs
+:imagesdir: ./media/
 
-
+[.lead]
+Use the FC Protocol service REST API to create, update, delete, and discover FC services for SVMs. Establishing an FC Protocol service is necessary for FC Protocol initiators to log in to an SVM.
 
 == Overview
 

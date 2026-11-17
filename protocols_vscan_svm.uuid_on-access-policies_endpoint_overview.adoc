@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_vscan_svm.uuid_on-access-policies_endpoint_overview.html'
+keywords: 'vscan on-access,virus scanning,smb file access,file operations control,on-access policy configuration'
 summary: 'Manage Vscan On-Access policies'
 ---
 
 = Manage Vscan On-Access policies
+:imagesdir: ./media/
 
-
+[.lead]
+Use Vscan On-Access policies to define how file objects are scanned for viruses when accessed over SMB. These endpoints help you manage the configurations and statuses of On-Access scanning policies for your storage virtual machine (SVM).
 
 == Overview
 

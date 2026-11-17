@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_cifs_home-directory_search-paths_endpoint_overview.html'
+keywords: 'home directory,search paths,smb users,cifs server,svm paths'
 summary: 'Manage home directory search paths'
 ---
 
 = Manage home directory search paths
+:imagesdir: ./media/
 
-
+[.lead]
+Configure home directory search paths to guide ONTAP in locating SMB user directories within a Storage Virtual Machine (SVM). These paths determine the sequence in which ONTAP searches for valid user directories. At least one search path must be added to utilize the CIFS home directories feature.
 
 == Overview
 

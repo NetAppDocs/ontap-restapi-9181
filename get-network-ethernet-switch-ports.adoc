@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-switch-ports.html'
+keywords: 'ethernet switch,network ports,port roles,mac address,vpc peer,duplex type'
 summary: 'Retrieve Ethernet switch ports'
 ---
 
 = Retrieve Ethernet switch ports
+:imagesdir: ./media/
+
+[.lead]
+Retrieves Ethernet switch ports to view and manage the configuration details of the ports on your network switches.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/switch/ports`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Retrieves the ethernet switch ports.
+ONTAP 9.8
 
 == Related ONTAP commands
 

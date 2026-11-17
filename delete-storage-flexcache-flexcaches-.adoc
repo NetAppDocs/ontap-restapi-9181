@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-storage-flexcache-flexcaches-.html'
+keywords: 'flexcache delete,flexcache removal,volume offlining,flexcache uuid,ontap flexcache'
 summary: 'Delete a FlexCache volume'
 ---
 
 = Delete a FlexCache volume
+:imagesdir: ./media/
+
+[.lead]
+Deletes a FlexCache volume when you need to remove it from your storage system. If the volume is currently online, it will be offlined prior to deletion.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/storage/flexcache/flexcaches/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes a FlexCache. If a FlexCache volume is online, it is offlined before deletion.
+ONTAP 9.6
+
+== Usage notes
+
+If a FlexCache volume is online, it is offlined before deletion.
 
 == Related ONTAP commands
 

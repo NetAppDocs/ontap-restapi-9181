@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'protocols_nvme_interfaces_endpoint_overview.html'
+keywords: 'nvme interfaces,fibre channel,nvme-of protocol,host-side configuration,nvme specific'
 summary: 'View NVMe interfaces'
 ---
 
 = View NVMe interfaces
+:imagesdir: ./media/
 
-
+[.lead]
+Access NVMe interfaces to obtain specific information about network interfaces configured for NVMe over Fabrics (NVMe-oF) protocols. Use these endpoints for configuring host-side applications with a consolidated view of all NVMe interfaces.
 
 == Overview
 

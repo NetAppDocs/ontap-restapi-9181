@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-aggregates.html'
+keywords: 'storage aggregates,cluster aggregates,space efficiency,aggregate collection,block storage'
 summary: 'Retrieve a collection of aggregates for an entire cluster'
 ---
 
 = Retrieve a collection of aggregates for an entire cluster
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of aggregates for the entire cluster, providing an overview of the storage resources available. Use this information to manage and optimize your cluster's storage configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/aggregates`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the collection of aggregates for the entire cluster.
+ONTAP 9.6
 
 == Expensive properties
 

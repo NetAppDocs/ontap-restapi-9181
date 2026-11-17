@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies-objects.html'
+keywords: 'cifs group policies,retrieve group policy,vserver cifs,group policy objects,svm group policies,policy settings'
 summary: 'Retrieve applied group policy objects for an SVM'
 ---
 
 = Retrieve applied group policy objects for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the applied group policy objects for a specified SVM, helping you understand which policies are currently in effect.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies/{svm.uuid}/objects`#
 
-*Introduced In:* 9.12
+== Introduced in
 
-Retrieves applied group policy objects for specified SVM.
+ONTAP 9.12
 
 == Related ONTAP commands
 

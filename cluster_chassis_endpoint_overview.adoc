@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_chassis_endpoint_overview.html'
+keywords: 'cluster chassis,hardware retrieval,chassis information,node details,fru state'
 summary: 'Retrieve cluster chassis'
 ---
 
 = Retrieve cluster chassis
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve detailed information about all chassis within your cluster using the chassis GET API. This allows you to monitor hardware components and their statuses effectively.
 
 == Overview
 

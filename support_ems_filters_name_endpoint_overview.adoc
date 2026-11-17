@@ -3,17 +3,20 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_ems_filters_name_endpoint_overview.html'
+keywords: 'manage event filters,ems filters,aggregate events,filter rules,severity levels'
 summary: 'Manage event filters'
 ---
 
 = Manage event filters
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to manage specific event filter instances in your environment. Access detailed properties and perform operations such as retrieving, updating, or deleting filters as required.
 
 == Overview
 
 Manages a specific filter instance.
-See the documentation for <</docs/support/support_ems_filters,/support/ems/filters>> for details on the various properties.
+See the documentation for link:getting_started_with_the_ontap_rest_api.html#/docs/support/support_ems_filters[/support/ems/filters] for details on the various properties.
 
 == Examples
 

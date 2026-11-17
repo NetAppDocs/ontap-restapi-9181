@@ -3,16 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-application-consistency-groups-.html'
+keywords: 'consistency group,consistency group update,storage elements,storage mapping,subsystem mapping,vserver modify'
 summary: 'Update a consistency group'
 ---
 
 = Update a consistency group
+:imagesdir: ./media/
+
+[.lead]
+Updates a consistency group to modify its configuration by adding new elements while maintaining existing storage objects.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/application/consistency-groups/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Updates a consistency group.
+ONTAP 9.10
+
+== Usage notes
 
 NOTE: that this operation will never delete storage elements. You can specify only elements that should be added to the consistency group regardless of existing storage objects.
 Mapping or unmapping a consistency group from igroups or subsystems is not supported.
@@ -1015,7 +1024,7 @@ This array contains only the direct children of the initiator group. If the memb
 
 Zero or more nested initiator groups can be supplied when the initiator group is created. The initiator group will act as if it contains the aggregation of all initiators in any nested initiator groups.
 
-After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups(#-san-igroup-nested-create)anddelete-protocols-san-igroups-igroups-.html<</SAN/igroup_nested_create,POST /protocols/san/igroups/{igroup.uuid}/igroups>> and [DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
+After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups.html[POST /protocols/san/igroups/{igroup.uuid}/igroups]  and link:delete-protocols-san-igroups-igroups-.html[DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
 
 
 |initiators

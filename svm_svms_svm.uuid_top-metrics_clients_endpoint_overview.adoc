@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'svm_svms_svm.uuid_top-metrics_clients_endpoint_overview.html'
+keywords: 'flexvol, flexgroup, i/o activity, svm clients, activity tracking'
 summary: 'Retrieve clients'
 ---
 
 = Retrieve clients
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve a list of clients with the highest I/O activity for specified FlexVol and FlexGroup volumes within an SVM, focusing on metrics such as `iops` and `throughput`. Use this endpoint to gain insights into client activity and specify the type of I/O activity to filter for using the `top_metric` parameter.
 
 == Overview
 

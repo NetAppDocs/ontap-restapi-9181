@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-shadow-copies.html'
+keywords: 'shadow copies,cifs shares,shadowcopy retrieval,svm filtering,shadowcopy uuid,shadowcopy set'
 summary: 'Retrieve shadow copies'
 ---
 
 = Retrieve shadow copies
+:imagesdir: ./media/
+
+[.lead]
+Retrieves shadow copies to access previous versions of files stored on your ONTAP system. This is useful for restoring file versions or auditing changes over time.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/shadow-copies`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves Shadowcopies
 

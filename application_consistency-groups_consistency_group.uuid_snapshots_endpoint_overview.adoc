@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'application_consistency-groups_consistency_group.uuid_snapshots_endpoint_overview.html'
+keywords: 'consistency group,snapshot creation,crash consistent,application consistent,manual snapshot,snapshot restore'
 summary: 'Manage application consistency group snapshots'
 ---
 
 = Manage application consistency group snapshots
+:imagesdir: ./media/
 
-
+[.lead]
+Consistency group snapshot APIs facilitate creating, retrieving, and managing snapshots for application consistency groups. Use these endpoints to schedule snapshots or perform on-demand operations with crash or application consistency types. While ONTAP supports both types, integrating with host applications through SnapCenter is advisable to maximize snapshot utility.
 
 == Overview
 

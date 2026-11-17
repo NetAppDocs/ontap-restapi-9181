@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_ssh_svms_endpoint_overview.html'
+keywords: 'ssh security,svm configuration,payload encryption,host key algorithms,login grace time,authentication retry'
 summary: 'View SSH SVMs'
 ---
 
 = View SSH SVMs
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve SSH security configurations for all data SVMs to ensure proper security measures are in place. You can customize SSH settings for individual data SVMs through specific PATCH operations, while updates at the cluster level do not affect existing SVM configurations.
 
 === Overview
 

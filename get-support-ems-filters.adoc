@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-ems-filters.html'
+keywords: 'event filters,system defined,event severities,snmp trap types,access control role,message criteria'
 summary: 'Retrieve event filters'
 ---
 
 = Retrieve event filters
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of event filters to manage and review specific events within your system. This helps you monitor and filter events according to your criteria.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/filters`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of event filters.
+ONTAP 9.6
 
 == Related ONTAP commands
 

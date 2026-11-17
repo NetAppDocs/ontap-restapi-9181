@@ -3,17 +3,20 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'support_ems_filters_name_rules_endpoint_overview.html'
+keywords: 'filter rules,filter management,event matching,rule creation,rule retrieval'
 summary: 'Create or retrieve filter rules'
 ---
 
 = Create or retrieve filter rules
+:imagesdir: ./media/
 
-
+[.lead]
+Manage rules within filters to evaluate and match events effectively. Utilize these endpoints to create or retrieve rules associated with specific filters, ensuring that events are processed according to your criteria.
 
 == Overview
 
 Manages the list of rules associated with a specific filter. A filter contains a list of rules that are evaluated to determine whether an event matches the filter. When a rule matches an event, the filter is considered a match.
-See the documentation for <</docs/support/support_ems_filters,/support/ems/filters>> for details on the various properties in a rule.
+See the documentation for link:getting_started_with_the_ontap_rest_api.html#/docs/support/support_ems_filters[/support/ems/filters] for details on the various properties in a rule.
 
 == Examples
 

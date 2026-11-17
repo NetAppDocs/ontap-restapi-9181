@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cluster_mediators_endpoint_overview.html'
+keywords: 'manage cluster,cluster mediators,metrocluster mediator,snapmirror sync,ontap mediator'
 summary: 'Manage cluster mediators'
 ---
 
 = Manage cluster mediators
+:imagesdir: ./media/
 
-
+[.lead]
+Use the Manage Cluster Mediators API to add, modify, or remove mediators within MetroCluster IP and SnapMirror active sync configurations. This API also enables you to retrieve status and details of existing mediators, streamlining your cluster management tasks.
 
 == Overview
 

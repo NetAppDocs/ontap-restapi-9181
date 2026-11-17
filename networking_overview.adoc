@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'networking_overview.html'
+keywords: 'networking information, ipspaces configuration, broadcast domain, ethernet ports, fibre channel interfaces'
 summary: 'ONTAP REST API Networking endpoints'
 ---
 
 = ONTAP REST API Networking endpoints
+:imagesdir: ./media/
 
-
+[.lead]
+The ONTAP REST API Networking endpoints provide access to networking information and management capabilities, including IPspaces, interfaces, routes, ports, service policies, and broadcast domains. Use these endpoints to configure and report on network settings within your ONTAP environment, ensuring seamless connectivity and efficient network management.
 
 == Overview
 

@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nfs-export-policies.html'
+keywords: 'export policy,svm export,access rules,nfs export,export rule'
 summary: 'Create an export policy'
 ---
 
 = Create an export policy
+:imagesdir: ./media/
+
+[.lead]
+Creates an export policy to define rules for client access to data exported by an SVM. Use this when you need to manage access controls for your storage resources effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nfs/export-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an export policy. An SVM can have any number of export policies to define rules for which clients can access data exported by the SVM. A policy with no rules prohibits access.
+ONTAP 9.6
+
+== Usage notes
+
+An SVM can have any number of export policies to define rules for which clients can access data exported by the SVM. A policy with no rules prohibits access.
 
 == Required properties
 
